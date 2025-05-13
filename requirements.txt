@@ -1,0 +1,5 @@
+astronomer-cosmos==1.10.0
+dbt-duckdb==1.9.3
+airflow-provider-duckdb==0.2.0
+pandas==2.2.3
+aiohttp==3.11.18
