@@ -21,4 +21,5 @@ class PersistFileOperator(BaseOperator):
         with open(self.file_name, 'w') as f:
             json.dump(content["realestate_data_out"], f, indent=4)
         message = f"Successfully persisted file {self.file_name}"
+        context["ti"].xcom_push(key=self.content_key, value=self.file_name)
         return message
