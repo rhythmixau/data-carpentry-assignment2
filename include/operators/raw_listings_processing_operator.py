@@ -1,12 +1,12 @@
 from airflow.sdk import BaseOperator
-from include.utils import load_data
+from include.utils import process_data
 from include.models.listing import Listing
 from include.models.agency import Agency
 from include.models.agent import Agent
 from include.models.address import Address
 import pandas as pd
 from pathlib import Path
-from include.utils import ensure_directory_exists, _store_data_as_csv
+from include.utils import ensure_directory_exists, _store_data_as_csv, _retrieve_data_from_minio
 from pendulum import now
 
 class RawListingsProcessingOperator(BaseOperator):
@@ -33,7 +33,8 @@ class RawListingsProcessingOperator(BaseOperator):
         agencies: list[Agency] = []
         listings: list[Listing] = []
 
-        load_data(file_name, addresses, agents, agencies, listings)
+        data = _retrieve_data_from_minio(self.bucket_name, self.file_path)
+        process_data(data, addresses, agents, agencies, listings)
 
         address_objects = [object.__dict__ for object in addresses]
         agencies_objects = [object.__dict__ for object in agencies]
