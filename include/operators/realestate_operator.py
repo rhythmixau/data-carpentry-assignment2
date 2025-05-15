@@ -20,7 +20,7 @@ class RealestateOperator(BaseOperator):
         [dict]: An array or list of dictionaries containing realestate data.
     """
     ui_color = "#f9f9fa"
-
+    BUCKET_NAME = "realestate-json"
     start_from_trigger = True
 
     def __init__(
@@ -75,6 +75,7 @@ class RealestateOperator(BaseOperator):
     ) -> str:
         """Execute when the tirgger is complete."""
         self.log.info("Trigger is complete")
-        s3_path = _store_data_as_json(event[1], channel=self.params["channel"], suburb=self.searchLocation)
-        context["ti"].xcom_push(key=normalise_file_name(self.searchLocation), value=s3_path)
+        s3_path = _store_data_as_json(event[1]["realestate_data_out"], bucket=RealestateOperator.BUCKET_NAME, folder_path=self.params["channel"], file_name=self.searchLocation)
+        value = {"bucket_name": RealestateOperator.BUCKET_NAME, "object_name": s3_path }
+        context["ti"].xcom_push(key=normalise_file_name(self.searchLocation), value=value)
         return kwarg_passed_to_execute_complete

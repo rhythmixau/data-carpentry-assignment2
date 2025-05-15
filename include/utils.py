@@ -273,15 +273,15 @@ def _get_minio_connection():
         secret_key=minio_conn.password,
         secure=False
     )
-def _store_data_as_json(fresh_data, channel:str, suburb: str) -> str:
+def _store_data_as_json(fresh_data, bucket:str, folder_path:str, file_name: str) -> str:
     client = _get_minio_connection()
-    BUCKET_NAME = "realestate-json"
-    if not client.bucket_exists(BUCKET_NAME):
-        client.make_bucket(BUCKET_NAME)
+
+    if not client.bucket_exists(bucket):
+        client.make_bucket(bucket)
     realestate_data = json.dumps(fresh_data, ensure_ascii=False).encode("utf-8")
-    filename = f"{channel}/{normalise_file_name(suburb)}.json"
+    filename = f"{folder_path}/{normalise_file_name(file_name)}.json"
     client.put_object(
-        bucket_name=BUCKET_NAME,
+        bucket_name=bucket,
         object_name=filename,
         data=BytesIO(realestate_data),
         length=len(realestate_data)
@@ -290,29 +290,32 @@ def _store_data_as_json(fresh_data, channel:str, suburb: str) -> str:
 
 def _store_data_as_csv(data, bucket_name: str, file_name: str) -> str:
     client = _get_minio_connection()
-    BUCKET_NAME = bucket_name
-    if not client.bucket_exists(BUCKET_NAME):
-        client.make_bucket(BUCKET_NAME)
+    if not client.bucket_exists(bucket_name):
+        client.make_bucket(bucket_name)
     df = pd.DataFrame.from_dict(data)
     csv_buffer = BytesIO()
     df.to_csv(csv_buffer, index=False)
     csv_buffer.seek(0)
     client.put_object(
-        bucket_name=BUCKET_NAME,
+        bucket_name=bucket_name,
         object_name=file_name,
         data=csv_buffer,
         length=len(csv_buffer.getvalue()),
         content_type="application/csv"
     )
-    return f"{BUCKET_NAME}/{file_name}"
+    return f"{bucket_name}/{file_name}"
 
-def _retrieve_data_from_minio(bucket_name: str, file_name: str) -> str:
-    hook = S3Hook(aws_conn_id="minio_conn")
-    file_content = hook.download_file(
-        key=file_name,
+def _retrieve_data_from_minio(bucket_name: str, object_name: str) -> str:
+    import json
+    import logging
+    logger = logging.getLogger(__name__)
+    client = _get_minio_connection()
+    logger.info(f"Connected. Retrieving: {object_name} from bucket: {bucket_name}")
+    response = client.get_object(
         bucket_name=bucket_name,
-        local_path="/tmp/"
+        object_name=object_name,
     )
-    with open(file_content, mode="r") as f:
-        data = json.load(f)
-    return data
+
+    json_data = json.loads(response.data.decode("utf-8"))
+
+    return json_data

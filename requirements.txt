@@ -1,6 +1,7 @@
 astronomer-cosmos==1.10.0
 dbt-duckdb==1.9.3
 airflow-provider-duckdb==0.2.0
+apache-airflow-providers-amazon==9.7.0
 pandas==2.2.3
 aiohttp==3.11.18
 minio==7.2.15
