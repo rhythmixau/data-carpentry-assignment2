@@ -5,6 +5,7 @@ import asyncio
 from airflow.sdk import Context
 from typing import Any
 from include.utils import normalise_file_name
+from include.utils import _store_data_as_json
 
 class RealestateOperator(BaseOperator):
     """
@@ -74,6 +75,6 @@ class RealestateOperator(BaseOperator):
     ) -> str:
         """Execute when the tirgger is complete."""
         self.log.info("Trigger is complete")
-        context["ti"].xcom_push(key=normalise_file_name(self.searchLocation), value=event[1])
-
+        s3_path = _store_data_as_json(event[1], channel=self.params["channel"], suburb=self.searchLocation)
+        context["ti"].xcom_push(key=normalise_file_name(self.searchLocation), value=s3_path)
         return kwarg_passed_to_execute_complete

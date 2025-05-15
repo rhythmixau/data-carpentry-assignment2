@@ -4,6 +4,11 @@ from include.models.address import Address
 from include.models.agency import Agency
 from include.models.agent import Agent
 from include.models.listing import Listing
+from airflow.hooks.base import BaseHook
+from minio import Minio
+from io import BytesIO
+import json
+from airflow.exceptions import AirflowNotFoundException
 
 def ensure_directory_exists(file_path):
     """
@@ -257,3 +262,49 @@ def load_data(filename: str, addresses: list[Address], agents: list[Agent], agen
                     )
 
                     listings.append(listing)
+
+
+def _get_minio_connection():
+    import logging
+    logger = logging.getLogger(__name__)
+    minio_conn = BaseHook.get_connection("minio_conn")
+    logger.info(f"minio_conn: {minio_conn}")
+    logger.info(f"endpoint: {minio_conn.host}")
+    return Minio(
+        endpoint= minio_conn.host,
+        access_key=minio_conn.login,
+        secret_key=minio_conn.password,
+        secure=False
+    )
+def _store_data_as_json(fresh_data, channel:str, suburb: str) -> str:
+    client = _get_minio_connection()
+    BUCKET_NAME = "realestate-json"
+    if not client.bucket_exists(BUCKET_NAME):
+        client.make_bucket(BUCKET_NAME)
+    realestate_data = json.dumps(fresh_data, ensure_ascii=False).encode("utf-8")
+    filename = f"{channel}/{normalise_file_name(suburb)}.json"
+    objw = client.put_object(
+        bucket_name=BUCKET_NAME,
+        object_name=filename,
+        data=BytesIO(realestate_data),
+        length=len(realestate_data)
+    )
+    return f"{objw.bucket_name}/{filename}"
+
+def _store_data_as_csv(data, bucket_name: str, file_name: str) -> str:
+    client = _get_minio_connection()
+    BUCKET_NAME = bucket_name
+    if not client.bucket_exists(BUCKET_NAME):
+        client.make_bucket(BUCKET_NAME)
+    df = pd.DataFrame.from_dict(data)
+    csv_buffer = BytesIO()
+    df.to_csv(csv_buffer, index=False)
+    csv_buffer.seek(0)
+    client.put_object(
+        bucket_name=BUCKET_NAME,
+        object_name=file_name,
+        data=csv_buffer,
+        length=len(csv_buffer.getvalue()),
+        content_type="application/csv"
+    )
+    return f"{BUCKET_NAME}/{file_name}"
