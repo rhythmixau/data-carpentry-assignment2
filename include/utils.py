@@ -303,7 +303,7 @@ def _store_data_as_csv(data, bucket_name: str, file_name: str) -> str:
         length=len(csv_buffer.getvalue()),
         content_type="application/csv"
     )
-    return f"{bucket_name}/{file_name}"
+    return f"{bucket_name}{file_name}"
 
 def _retrieve_data_from_minio(bucket_name: str, object_name: str) -> str:
     import json
@@ -319,3 +319,8 @@ def _retrieve_data_from_minio(bucket_name: str, object_name: str) -> str:
     json_data = json.loads(response.data.decode("utf-8"))
 
     return json_data
+
+def _get_duckdb_connection():
+    from airflow.providers.sqlite.hooks.sqlite import SqliteHook as DuckDBHook
+    duck_hook = DuckDBHook.get_hook(conn_id="mother-duck-conn")
+    return duck_hook.get_conn()

@@ -1,8 +1,8 @@
 from airflow.decorators import dag, task, task_group
 from pendulum import datetime, now
-import duckdb
+from duckdb_provider.hooks.duckdb_hook import DuckDBHook
 import logging
-from include.utils import download_large_csv, normalise_file_name
+from include.utils import download_large_csv, normalise_file_name, _get_duckdb_connection
 from include.constants import suburb_url, duckdb_file
 import logging
 from airflow.sdk import Variable
@@ -15,6 +15,11 @@ from airflow.operators.python import PythonOperator
 # from airflow.operators.python import get_current_context
 from airflow.models import XCom
 import pandas as pd
+from pandas import DataFrame
+from include.constants import sql_create_agencies_table, sql_create_listings_table, sql_create_agents_table, sql_create_addresses_table
+# from astro import sql as aql
+# from astro.files import File
+# from astro.sql.table import Table, Metadata
 
 logger = logging.getLogger(__name__)
 
@@ -65,13 +70,91 @@ def downoad_realestate_raw():
                 target_key=norm_suburb,
                 bucket_name="realestate-raw",
                 file_path=f"/{channel}/{state_name}/{norm_suburb}",
-            #   target_task_id: str,
-            #   target_key: str,
-            #   bucket_name: str,
-            #   file_path: str,
             )
 
-            download_suburb_listing_task >> raw_listings_processing_task
+            @task
+            def create_tables():
+                db_connection = _get_duckdb_connection()
+                db_connection.execute(sql_create_addresses_table)
+                db_connection.execute(sql_create_agencies_table)
+                db_connection.execute(sql_create_agents_table)
+                db_connection.execute(sql_create_listings_table)
+
+            load_addresses_to_dw_task = aql.load_file(
+                task_id="load_addresses_to_dw",
+                input_file=File(
+                    path=f"s3://{{{{ ti.xcom_pull(task_ids='{group_id}.raw_listings_processing_{norm_suburb}') }}}}",
+                    conn_id="minio_s3_conn"
+                ),
+                output_table=Table(
+                    conn_id="mother-duck-conn",
+                    name="raw_addresses",
+                    metadata=MetaData(schema="public"),
+                ),
+                load_options={
+                    "aws_access_key_id": BaseHook.get_connection("minio_s3_conn").login,
+                    "aws_secret_access_key": BaseHook.get_connection("minio_s3_conn").password,
+                    "endpoint_url": BaseHook.get_connection("minio_s3_conn").host,
+                }
+            )
+            #
+            # load_agencies_to_dw_task = aql.load_file(
+            #     task_id="load_agencies_to_dw",
+            #     input_file=File(
+            #         path=f"s3://{{{{ ti.xcom_pull(task_ids='{group_id}.raw_listings_processing_{norm_suburb}') }}}}",
+            #         conn_id="minio_s3_conn"
+            #     ),
+            #     output_table=Table(
+            #         conn_id="mother-duck-conn",
+            #         name="raw_agencies",
+            #         metadata=MetaData(schema="public"),
+            #     ),
+            #     load_options={
+            #         "aws_access_key_id": BaseHook.get_connection("minio_s3_conn").login,
+            #         "aws_secret_access_key": BaseHook.get_connection("minio_s3_conn").password,
+            #         "endpoint_url": BaseHook.get_connection("minio_s3_conn").host,
+            #     }
+            # )
+            #
+            # load_agents_to_dw_task = aql.load_file(
+            #     task_id="load_agents_to_dw",
+            #     input_file=File(
+            #         path=f"s3://{{{{ ti.xcom_pull(task_ids='{group_id}.raw_listings_processing_{norm_suburb}') }}}}",
+            #         conn_id="minio_s3_conn"
+            #     ),
+            #     output_table=Table(
+            #         conn_id="mother-duck-conn",
+            #         name="raw_agents",
+            #         metadata=MetaData(schema="public"),
+            #     ),
+            #     load_options={
+            #         "aws_access_key_id": BaseHook.get_connection("minio_s3_conn").login,
+            #         "aws_secret_access_key": BaseHook.get_connection("minio_s3_conn").password,
+            #         "endpoint_url": BaseHook.get_connection("minio_s3_conn").host,
+            #     }
+            # )
+            #
+            # load_listings_to_dw_task = aql.load_file(
+            #     task_id="load_listings_to_dw",
+            #     input_file=File(
+            #         path=f"s3://{{{{ ti.xcom_pull(task_ids='{group_id}.raw_listings_processing_{norm_suburb}') }}}}",
+            #         conn_id="minio_s3_conn"
+            #     ),
+            #     output_table=Table(
+            #         conn_id="mother-duck-conn",
+            #         name="raw_listings",
+            #         metadata=MetaData(schema="public"),
+            #     ),
+            #     load_options={
+            #         "aws_access_key_id": BaseHook.get_connection("minio_s3_conn").login,
+            #         "aws_secret_access_key": BaseHook.get_connection("minio_s3_conn").password,
+            #         "endpoint_url": BaseHook.get_connection("minio_s3_conn").host,
+            #     }
+            # )
+
+            create_tables_task = create_tables()
+
+            download_suburb_listing_task >> raw_listings_processing_task >> create_tables_task #>> [load_addresses_to_dw_task, load_agencies_to_dw_task, load_agents_to_dw_task, load_listings_to_dw_task]
 
         task_groups.append(victoria_task_group(tg_id, name))
 

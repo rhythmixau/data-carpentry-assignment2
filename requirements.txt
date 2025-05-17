@@ -1,5 +1,8 @@
 astronomer-cosmos==1.10.0
 dbt-duckdb==1.9.3
+duckdb==1.2.2
+#astro-sdk-python==1.8.1
+astro-sdk-python[amazon,duckdb]
 airflow-provider-duckdb==0.2.0
 apache-airflow-providers-amazon==9.7.0
 pandas==2.2.3

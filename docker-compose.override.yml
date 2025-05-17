@@ -2,6 +2,12 @@
 # mount the dbt directory as a volume
 services:
   api-server:
+#    volumes:
+#      - ./airflow/airflow.cfg:/usr/local/airflow/airflow/airflow.cfg
+    environment:
+      - AIRFLOW__CORE__XCOM_BACKEND=astro.custom_backend.astro_custom_backend.AstroCustomXcomBackend
+      - AIRFLOW__ASTRO_SDK__STORE_DATA_LOCAL_DEV=true
+      - AIRFLOW__CORE__ALLOWED_DESERIALIZATION_CLASSES = airflow\.* astro\.*
     networks:
       - ndsnet
 

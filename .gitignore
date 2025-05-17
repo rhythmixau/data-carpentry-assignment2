@@ -164,3 +164,4 @@ cython_debug/
 
 #Minio data
 include/data/minio/
+upgrade-test* 
