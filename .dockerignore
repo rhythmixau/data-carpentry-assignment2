@@ -3,4 +3,4 @@ astro
 .env
 airflow_settings.yaml
 logs/
-airflow/airflow.cfg
+airflow/__airflow.cfg

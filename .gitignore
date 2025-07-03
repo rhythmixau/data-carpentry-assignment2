@@ -1,5 +1,5 @@
 # dbt-specific
-dbt/jaffle_shop/logs/*
+dbt/airbnb/logs/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
