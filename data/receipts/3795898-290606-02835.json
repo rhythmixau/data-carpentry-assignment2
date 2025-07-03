@@ -1,0 +1,50 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Cole",
+    "Date": "2029/06/06",
+    "GST": 7.86,
+    "Payments": [
+        {
+            "Amount": 69.2,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 17.3,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 11.6,
+            "Name": "Spray bottle",
+            "Price": 26.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 5.5,
+            "Name": "Hair tonic",
+            "Price": 16.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 9.3,
+            "Name": "Shaving cream",
+            "Price": 16.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Spray bottle"
+        }
+    ],
+    "Reference": "3795898:290606:02835",
+    "Sequence": 2835,
+    "Terminal": 2,
+    "Total": 86.5
+}

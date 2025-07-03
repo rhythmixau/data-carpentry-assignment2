@@ -1,0 +1,46 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Tara",
+    "Date": "2022/11/11",
+    "GST": 3.82,
+    "Payments": [
+        {
+            "Amount": 42.0,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 1.1,
+            "Name": "Water 600mL",
+            "Price": 3.5,
+            "Quantity": 3
+        },
+        {
+            "Cost": 2.1,
+            "Name": "Pancakes",
+            "Price": 7.0,
+            "Quantity": 1
+        },
+        {
+            "Cost": 1.1,
+            "Name": "Water 600mL",
+            "Price": 3.5,
+            "Quantity": 3
+        },
+        {
+            "Cost": 2.1,
+            "Name": "Pancakes",
+            "Price": 7.0,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:221111:00165",
+    "Sequence": 165,
+    "Terminal": 3,
+    "Total": 42.0
+}

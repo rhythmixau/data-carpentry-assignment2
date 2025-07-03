@@ -1,0 +1,52 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Barbara",
+    "Date": "2029/02/27",
+    "GST": 24.85,
+    "Payments": [
+        {
+            "Amount": 273.3,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.5,
+            "Name": "Hair tonic",
+            "Price": 16.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 11.6,
+            "Name": "Spray bottle",
+            "Price": 26.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 20.6,
+            "Name": "Cape white",
+            "Price": 61.5,
+            "Quantity": 2
+        },
+        {
+            "Cost": 11.6,
+            "Name": "Spray bottle",
+            "Price": 26.8,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Spray bottle"
+        }
+    ],
+    "Reference": "3795898:290227:02709",
+    "Sequence": 2709,
+    "Terminal": 3,
+    "Total": 273.3
+}

@@ -1,0 +1,60 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Customer": {
+        "Name": "Michelle",
+        "Points_Earnt": 5716
+    },
+    "Date": "2028/06/22",
+    "GST": 5.2,
+    "Payments": [
+        {
+            "Amount": 28.58,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 28.58,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.3,
+            "Name": "Cupcake",
+            "Price": 9.3,
+            "Quantity": 2
+        },
+        {
+            "Cost": 5.6,
+            "Name": "Ham toastie",
+            "Price": 8.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.2,
+            "Name": "Long Black",
+            "Price": 4.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.0,
+            "Name": "Flat white",
+            "Price": 6.0,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 1,
+            "Product": "Long Black"
+        }
+    ],
+    "Reference": "2209696:280622:03335",
+    "Sequence": 3335,
+    "Terminal": 4,
+    "Total": 57.16
+}

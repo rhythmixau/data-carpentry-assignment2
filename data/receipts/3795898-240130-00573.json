@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Jonathon",
+    "Date": "2024/01/30",
+    "GST": 14.89,
+    "Payments": [
+        {
+            "Amount": 88.3,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 75.5,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 19.8,
+            "Name": "Scissors",
+            "Price": 38.4,
+            "Quantity": 3
+        },
+        {
+            "Cost": 8.7,
+            "Name": "Spray bottle",
+            "Price": 21.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Spray bottle"
+        }
+    ],
+    "Reference": "3795898:240130:00573",
+    "Sequence": 573,
+    "Terminal": 1,
+    "Total": 163.8
+}

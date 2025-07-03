@@ -1,0 +1,40 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Michael",
+    "Date": "2027/07/13",
+    "GST": 23.35,
+    "Payments": [
+        {
+            "Amount": 256.9,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 32.2,
+            "Name": "Clippers kit",
+            "Price": 61.5,
+            "Quantity": 3
+        },
+        {
+            "Cost": 18.0,
+            "Name": "Cape white",
+            "Price": 56.0,
+            "Quantity": 1
+        },
+        {
+            "Cost": 5.3,
+            "Name": "Soap 500mL",
+            "Price": 8.2,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:270713:01975",
+    "Sequence": 1975,
+    "Terminal": 1,
+    "Total": 256.9
+}

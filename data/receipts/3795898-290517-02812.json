@@ -1,0 +1,50 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Robert",
+    "Customer": {
+        "Name": "Rebecca",
+        "Points_Earnt": 16260
+    },
+    "Date": "2029/05/17",
+    "GST": 14.78,
+    "Payments": [
+        {
+            "Amount": 162.6,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 7.7,
+            "Name": "Hairwax",
+            "Price": 17.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 7.7,
+            "Name": "Hairwax",
+            "Price": 17.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 20.6,
+            "Name": "Cape white",
+            "Price": 61.5,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Hairwax"
+        }
+    ],
+    "Reference": "3795898:290517:02812",
+    "Sequence": 2812,
+    "Terminal": 5,
+    "Total": 162.6
+}

@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Date": "2025/09/04",
+    "GST": 3.76,
+    "Payments": [
+        {
+            "Amount": 16.56,
+            "Method": "Credit Card"
+        },
+        {
+            "Amount": 24.84,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.4,
+            "Name": "Salmon bagel",
+            "Price": 13.8,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:250904:01610",
+    "Sequence": 1610,
+    "Terminal": 2,
+    "Total": 41.4
+}

@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Customer": {
+        "Name": "Isaac",
+        "Points_Earnt": 374
+    },
+    "Date": "2026/05/12",
+    "GST": 0.34,
+    "Payments": [
+        {
+            "Amount": 3.74,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.9,
+            "Name": "Mocha",
+            "Price": 4.4,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.15,
+            "Per_Quantity": 1,
+            "Product": "Mocha"
+        }
+    ],
+    "Reference": "2209696:260512:02011",
+    "Sequence": 2011,
+    "Terminal": 1,
+    "Total": 3.74
+}

@@ -1,0 +1,56 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Anthony",
+    "Customer": {
+        "Name": "Darren",
+        "Points_Earnt": 14586
+    },
+    "Date": "2023/06/14",
+    "GST": 13.26,
+    "Payments": [
+        {
+            "Amount": 145.86,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.2,
+            "Name": "Soap 500mL",
+            "Price": 6.9,
+            "Quantity": 3
+        },
+        {
+            "Cost": 19.2,
+            "Name": "Cape grey",
+            "Price": 46.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 8.3,
+            "Name": "Spray bottle",
+            "Price": 20.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 4.2,
+            "Name": "Soap 500mL",
+            "Price": 6.9,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 2,
+            "Product": "Soap 500mL"
+        }
+    ],
+    "Reference": "3795898:230614:00344",
+    "Sequence": 344,
+    "Terminal": 5,
+    "Total": 145.86
+}

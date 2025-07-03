@@ -1,0 +1,50 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Jonathon",
+    "Customer": {
+        "Name": "Manuel",
+        "Points_Earnt": 16250
+    },
+    "Date": "2023/01/11",
+    "GST": 14.77,
+    "Payments": [
+        {
+            "Amount": 162.5,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 14.2,
+            "Name": "Cape white",
+            "Price": 46.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 8.9,
+            "Name": "Classic brush",
+            "Price": 14.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 10.6,
+            "Name": "Hairspray",
+            "Price": 26.2,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 2,
+            "Product": "Hairspray"
+        }
+    ],
+    "Reference": "3795898:230111:00186",
+    "Sequence": 186,
+    "Terminal": 1,
+    "Total": 162.5
+}

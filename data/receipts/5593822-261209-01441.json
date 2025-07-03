@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Donna",
+    "Date": "2026/12/09",
+    "GST": 4.11,
+    "Payments": [
+        {
+            "Amount": 11.2,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 34.05,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.8,
+            "Name": "Hot chips",
+            "Price": 6.2,
+            "Quantity": 2
+        },
+        {
+            "Cost": 7.8,
+            "Name": "Waterpolo",
+            "Price": 14.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 3,
+            "Product": "Waterpolo"
+        }
+    ],
+    "Reference": "5593822:261209:01441",
+    "Sequence": 1441,
+    "Terminal": 4,
+    "Total": 45.25
+}

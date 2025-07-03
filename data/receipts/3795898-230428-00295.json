@@ -1,0 +1,65 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Anthony",
+    "Customer": {
+        "Name": "Jessica",
+        "Points_Earnt": 21560
+    },
+    "Date": "2023/04/28",
+    "GST": 19.6,
+    "Payments": [
+        {
+            "Amount": 129.36,
+            "Method": "Credit Card"
+        },
+        {
+            "Amount": 86.24,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 9.7,
+            "Name": "Razorblade",
+            "Price": 15.8,
+            "Quantity": 3
+        },
+        {
+            "Cost": 14.2,
+            "Name": "Cape white",
+            "Price": 46.8,
+            "Quantity": 3
+        },
+        {
+            "Cost": 4.2,
+            "Name": "Soap 500mL",
+            "Price": 6.9,
+            "Quantity": 3
+        },
+        {
+            "Cost": 8.9,
+            "Name": "Classic brush",
+            "Price": 14.8,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 2,
+            "Product": "Soap 500mL"
+        },
+        {
+            "Discount": 0.2,
+            "Per_Quantity": 2,
+            "Product": "Razorblade"
+        }
+    ],
+    "Reference": "3795898:230428:00295",
+    "Sequence": 295,
+    "Terminal": 5,
+    "Total": 215.6
+}

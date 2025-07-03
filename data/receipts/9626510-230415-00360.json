@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Ronald",
+    "Date": "2023/04/15",
+    "GST": 3.47,
+    "Payments": [
+        {
+            "Amount": 24.25,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 13.97,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.0,
+            "Name": "Cheese bread",
+            "Price": 6.3,
+            "Quantity": 1
+        },
+        {
+            "Cost": 10.2,
+            "Name": "Three meat",
+            "Price": 16.8,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.05,
+            "Per_Quantity": 1,
+            "Product": "Three meat"
+        }
+    ],
+    "Reference": "9626510:230415:00360",
+    "Sequence": 360,
+    "Terminal": 3,
+    "Total": 38.22
+}

@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Customer": {
+        "Name": "Gregory",
+        "Points_Earnt": 1460
+    },
+    "Date": "2026/02/13",
+    "GST": 1.33,
+    "Payments": [
+        {
+            "Amount": 14.6,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.2,
+            "Name": "English muffin",
+            "Price": 7.3,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:260213:01858",
+    "Sequence": 1858,
+    "Terminal": 1,
+    "Total": 14.6
+}

@@ -1,0 +1,46 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Carlos",
+    "Date": "2028/12/06",
+    "GST": 19.55,
+    "Payments": [
+        {
+            "Amount": 215.0,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 7.2,
+            "Name": "Hairwax",
+            "Price": 16.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 19.2,
+            "Name": "Cape white",
+            "Price": 58.5,
+            "Quantity": 2
+        },
+        {
+            "Cost": 8.7,
+            "Name": "Shaving cream",
+            "Price": 15.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 7.1,
+            "Name": "Pomade",
+            "Price": 16.6,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:281206:02604",
+    "Sequence": 2604,
+    "Terminal": 1,
+    "Total": 215.0
+}

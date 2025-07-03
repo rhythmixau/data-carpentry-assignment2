@@ -1,0 +1,56 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Scott",
+    "Customer": {
+        "Name": "Carol",
+        "Points_Earnt": 33090
+    },
+    "Date": "2027/06/10",
+    "GST": 30.08,
+    "Payments": [
+        {
+            "Amount": 330.9,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 32.2,
+            "Name": "Clippers kit",
+            "Price": 61.5,
+            "Quantity": 1
+        },
+        {
+            "Cost": 8.2,
+            "Name": "Shaving cream",
+            "Price": 15.2,
+            "Quantity": 3
+        },
+        {
+            "Cost": 18.0,
+            "Name": "Cape white",
+            "Price": 56.0,
+            "Quantity": 2
+        },
+        {
+            "Cost": 32.2,
+            "Name": "Clippers kit",
+            "Price": 61.5,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 2,
+            "Product": "Cape white"
+        }
+    ],
+    "Reference": "3795898:270610:01932",
+    "Sequence": 1932,
+    "Terminal": 2,
+    "Total": 330.9
+}

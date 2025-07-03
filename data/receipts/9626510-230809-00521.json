@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Tara",
+    "Date": "2023/08/09",
+    "GST": 1.72,
+    "Payments": [
+        {
+            "Amount": 6.1,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 12.8,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 7.6,
+            "Name": "Just Cheese",
+            "Price": 12.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 7.6,
+            "Name": "Just Cheese",
+            "Price": 12.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 2,
+            "Product": "Just Cheese"
+        }
+    ],
+    "Reference": "9626510:230809:00521",
+    "Sequence": 521,
+    "Terminal": 5,
+    "Total": 18.9
+}

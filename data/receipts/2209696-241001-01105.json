@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Customer": {
+        "Name": "Robert",
+        "Points_Earnt": 2240
+    },
+    "Date": "2024/10/01",
+    "GST": 2.04,
+    "Payments": [
+        {
+            "Amount": 22.4,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.6,
+            "Name": "Ham bagel",
+            "Price": 11.2,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:241001:01105",
+    "Sequence": 1105,
+    "Terminal": 3,
+    "Total": 22.4
+}

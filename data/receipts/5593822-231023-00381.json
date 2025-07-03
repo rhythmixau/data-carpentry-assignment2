@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Donna",
+    "Date": "2023/10/23",
+    "GST": 1.15,
+    "Payments": [
+        {
+            "Amount": 1.0,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 11.6,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 6.5,
+            "Name": "Aquaerobics",
+            "Price": 12.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:231023:00381",
+    "Sequence": 381,
+    "Terminal": 4,
+    "Total": 12.6
+}

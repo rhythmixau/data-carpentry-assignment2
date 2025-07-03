@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Jonathon",
+    "Date": "2022/11/01",
+    "GST": 11.23,
+    "Payments": [
+        {
+            "Amount": 111.15,
+            "Method": "Credit Card"
+        },
+        {
+            "Amount": 12.35,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.8,
+            "Name": "Face wipes",
+            "Price": 9.5,
+            "Quantity": 3
+        },
+        {
+            "Cost": 9.0,
+            "Name": "Razorblade",
+            "Price": 15.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 10.0,
+            "Name": "Hairspray",
+            "Price": 25.0,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:221101:00120",
+    "Sequence": 120,
+    "Terminal": 2,
+    "Total": 123.5
+}

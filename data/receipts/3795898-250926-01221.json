@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Eric",
+    "Customer": {
+        "Name": "Rebecca",
+        "Points_Earnt": 11430
+    },
+    "Date": "2025/09/26",
+    "GST": 10.39,
+    "Payments": [
+        {
+            "Amount": 114.3,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 14.2,
+            "Name": "Broom",
+            "Price": 44.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 4.7,
+            "Name": "Soap 500mL",
+            "Price": 7.5,
+            "Quantity": 1
+        },
+        {
+            "Cost": 10.6,
+            "Name": "Razorblade",
+            "Price": 17.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:250926:01221",
+    "Sequence": 1221,
+    "Terminal": 3,
+    "Total": 114.3
+}

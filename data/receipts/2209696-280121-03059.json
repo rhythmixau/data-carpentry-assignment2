@@ -1,0 +1,46 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Date": "2028/01/21",
+    "GST": 4.41,
+    "Payments": [
+        {
+            "Amount": 48.46,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.9,
+            "Name": "Almond croissant",
+            "Price": 8.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.2,
+            "Name": "Long Black",
+            "Price": 4.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.3,
+            "Name": "Cupcake",
+            "Price": 9.3,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 1,
+            "Product": "Long Black"
+        }
+    ],
+    "Reference": "2209696:280121:03059",
+    "Sequence": 3059,
+    "Terminal": 5,
+    "Total": 48.46
+}

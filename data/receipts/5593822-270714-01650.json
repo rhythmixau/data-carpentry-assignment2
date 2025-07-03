@@ -1,0 +1,40 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Donna",
+    "Date": "2027/07/14",
+    "GST": 3.91,
+    "Payments": [
+        {
+            "Amount": 43.0,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.1,
+            "Name": "Egg+Bac burger",
+            "Price": 6.4,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.1,
+            "Name": "Water bottle",
+            "Price": 8.9,
+            "Quantity": 2
+        },
+        {
+            "Cost": 11.8,
+            "Name": "Infant lesson",
+            "Price": 18.8,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:270714:01650",
+    "Sequence": 1650,
+    "Terminal": 1,
+    "Total": 43.0
+}

@@ -1,0 +1,28 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Jennifer",
+    "Date": "2028/08/17",
+    "GST": 1.56,
+    "Payments": [
+        {
+            "Amount": 17.2,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.5,
+            "Name": "Spicy chicken",
+            "Price": 17.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:280817:03549",
+    "Sequence": 3549,
+    "Terminal": 2,
+    "Total": 17.2
+}

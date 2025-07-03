@@ -1,0 +1,28 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Michael",
+    "Date": "2027/08/12",
+    "GST": 5.09,
+    "Payments": [
+        {
+            "Amount": 56.0,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 18.0,
+            "Name": "Cape white",
+            "Price": 56.0,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:270812:02010",
+    "Sequence": 2010,
+    "Terminal": 1,
+    "Total": 56.0
+}

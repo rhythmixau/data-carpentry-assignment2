@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Kevin",
+    "Customer": {
+        "Name": "Ashley",
+        "Points_Earnt": 2485
+    },
+    "Date": "2028/10/14",
+    "GST": 3.56,
+    "Payments": [
+        {
+            "Amount": 14.35,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 24.85,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 12.4,
+            "Name": "Infant lesson",
+            "Price": 19.6,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:281014:02127",
+    "Sequence": 2127,
+    "Terminal": 5,
+    "Total": 39.2
+}

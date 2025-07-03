@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Barbara",
+    "Customer": {
+        "Name": "Michaela",
+        "Points_Earnt": 2075
+    },
+    "Date": "2028/12/07",
+    "GST": 4.53,
+    "Payments": [
+        {
+            "Amount": 29.05,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 20.75,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 7.2,
+            "Name": "Hairwax",
+            "Price": 16.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:281207:02605",
+    "Sequence": 2605,
+    "Terminal": 4,
+    "Total": 49.8
+}

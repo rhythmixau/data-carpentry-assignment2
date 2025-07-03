@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Carlos",
+    "Customer": {
+        "Name": "Scott",
+        "Points_Earnt": 10085
+    },
+    "Date": "2029/02/21",
+    "GST": 12.69,
+    "Payments": [
+        {
+            "Amount": 38.75,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 100.85,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 20.6,
+            "Name": "Cape white",
+            "Price": 61.5,
+            "Quantity": 2
+        },
+        {
+            "Cost": 5.5,
+            "Name": "Hair tonic",
+            "Price": 16.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:290221:02698",
+    "Sequence": 2698,
+    "Terminal": 1,
+    "Total": 139.6
+}

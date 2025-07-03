@@ -1,0 +1,46 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Scott",
+    "Date": "2026/05/28",
+    "GST": 17.49,
+    "Payments": [
+        {
+            "Amount": 192.4,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 17.2,
+            "Name": "Cape white",
+            "Price": 54.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 15.2,
+            "Name": "Broom",
+            "Price": 47.2,
+            "Quantity": 1
+        },
+        {
+            "Cost": 5.0,
+            "Name": "Soap 500mL",
+            "Price": 7.9,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Cape white"
+        }
+    ],
+    "Reference": "3795898:260528:01491",
+    "Sequence": 1491,
+    "Terminal": 5,
+    "Total": 192.4
+}

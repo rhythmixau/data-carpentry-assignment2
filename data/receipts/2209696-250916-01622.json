@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Date": "2025/09/16",
+    "GST": 3.49,
+    "Payments": [
+        {
+            "Amount": 31.0,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 7.34,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.3,
+            "Name": "Flat white",
+            "Price": 5.2,
+            "Quantity": 3
+        },
+        {
+            "Cost": 2.7,
+            "Name": "Cupcake",
+            "Price": 8.1,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.15,
+            "Per_Quantity": 2,
+            "Product": "Flat white"
+        }
+    ],
+    "Reference": "2209696:250916:01622",
+    "Sequence": 1622,
+    "Terminal": 1,
+    "Total": 38.34
+}

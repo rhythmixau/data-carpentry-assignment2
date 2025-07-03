@@ -1,0 +1,52 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Scott",
+    "Date": "2027/03/11",
+    "GST": 12.81,
+    "Payments": [
+        {
+            "Amount": 140.95,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 12.0,
+            "Name": "Razorblade",
+            "Price": 18.8,
+            "Quantity": 3
+        },
+        {
+            "Cost": 5.3,
+            "Name": "Soap 500mL",
+            "Price": 8.2,
+            "Quantity": 3
+        },
+        {
+            "Cost": 6.8,
+            "Name": "Pomade",
+            "Price": 15.8,
+            "Quantity": 3
+        },
+        {
+            "Cost": 10.2,
+            "Name": "Spray bottle",
+            "Price": 24.4,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 3,
+            "Product": "Pomade"
+        }
+    ],
+    "Reference": "3795898:270311:01825",
+    "Sequence": 1825,
+    "Terminal": 5,
+    "Total": 140.95
+}

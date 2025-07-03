@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Jonathon",
+    "Customer": {
+        "Name": "Shelley",
+        "Points_Earnt": 2340
+    },
+    "Date": "2024/03/19",
+    "GST": 2.13,
+    "Payments": [
+        {
+            "Amount": 18.72,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 4.68,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 8.7,
+            "Name": "Spray bottle",
+            "Price": 21.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.5,
+            "Name": "Soap 500mL",
+            "Price": 7.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Spray bottle"
+        }
+    ],
+    "Reference": "3795898:240319:00620",
+    "Sequence": 620,
+    "Terminal": 2,
+    "Total": 23.4
+}

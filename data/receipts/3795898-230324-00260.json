@@ -1,0 +1,46 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Jonathon",
+    "Date": "2023/03/24",
+    "GST": 8.41,
+    "Payments": [
+        {
+            "Amount": 92.56,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 10.6,
+            "Name": "Hairspray",
+            "Price": 26.2,
+            "Quantity": 1
+        },
+        {
+            "Cost": 9.7,
+            "Name": "Razorblade",
+            "Price": 15.8,
+            "Quantity": 3
+        },
+        {
+            "Cost": 9.7,
+            "Name": "Razorblade",
+            "Price": 15.8,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.2,
+            "Per_Quantity": 2,
+            "Product": "Razorblade"
+        }
+    ],
+    "Reference": "3795898:230324:00260",
+    "Sequence": 260,
+    "Terminal": 5,
+    "Total": 92.56
+}

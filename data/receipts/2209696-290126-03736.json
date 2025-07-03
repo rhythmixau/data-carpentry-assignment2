@@ -1,0 +1,40 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Lauren",
+    "Date": "2029/01/26",
+    "GST": 2.07,
+    "Payments": [
+        {
+            "Amount": 22.8,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.4,
+            "Name": "Mocha",
+            "Price": 5.1,
+            "Quantity": 2
+        },
+        {
+            "Cost": 4.3,
+            "Name": "Flat white",
+            "Price": 6.3,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.3,
+            "Name": "Flat white",
+            "Price": 6.3,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290126:03736",
+    "Sequence": 3736,
+    "Terminal": 1,
+    "Total": 22.8
+}

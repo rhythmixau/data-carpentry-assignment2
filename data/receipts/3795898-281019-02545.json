@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Natasha",
+    "Date": "2028/10/19",
+    "GST": 4.53,
+    "Payments": [
+        {
+            "Amount": 18.1,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 31.7,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 7.2,
+            "Name": "Hairwax",
+            "Price": 16.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:281019:02545",
+    "Sequence": 2545,
+    "Terminal": 4,
+    "Total": 49.8
+}

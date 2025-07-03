@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Amber",
+    "Date": "2026/11/28",
+    "GST": 0.66,
+    "Payments": [
+        {
+            "Amount": 6.57,
+            "Method": "Credit Card"
+        },
+        {
+            "Amount": 0.73,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.9,
+            "Name": "Chips",
+            "Price": 7.3,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:261128:02379",
+    "Sequence": 2379,
+    "Terminal": 3,
+    "Total": 7.3
+}

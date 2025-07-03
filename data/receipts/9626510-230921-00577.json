@@ -1,0 +1,40 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Tara",
+    "Date": "2023/09/21",
+    "GST": 7.25,
+    "Payments": [
+        {
+            "Amount": 79.8,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 10.2,
+            "Name": "Three meat",
+            "Price": 16.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 10.2,
+            "Name": "Three meat",
+            "Price": 16.8,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.05,
+            "Per_Quantity": 1,
+            "Product": "Three meat"
+        }
+    ],
+    "Reference": "9626510:230921:00577",
+    "Sequence": 577,
+    "Terminal": 4,
+    "Total": 79.8
+}

@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Eric",
+    "Customer": {
+        "Name": "Carol",
+        "Points_Earnt": 13280
+    },
+    "Date": "2028/01/05",
+    "GST": 12.07,
+    "Payments": [
+        {
+            "Amount": 132.8,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 8.7,
+            "Name": "Shaving cream",
+            "Price": 15.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 19.2,
+            "Name": "Cape white",
+            "Price": 58.5,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:280105:02181",
+    "Sequence": 2181,
+    "Terminal": 1,
+    "Total": 132.8
+}

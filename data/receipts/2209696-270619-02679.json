@@ -1,0 +1,50 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Date": "2027/06/19",
+    "GST": 5.18,
+    "Payments": [
+        {
+            "Amount": 28.5,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 28.5,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.1,
+            "Name": "Cappuccino",
+            "Price": 6.4,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.0,
+            "Name": "Long Black",
+            "Price": 4.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 4.1,
+            "Name": "Cappuccino",
+            "Price": 6.4,
+            "Quantity": 1
+        },
+        {
+            "Cost": 5.0,
+            "Name": "Salmon bagel",
+            "Price": 15.2,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:270619:02679",
+    "Sequence": 2679,
+    "Terminal": 2,
+    "Total": 57.0
+}

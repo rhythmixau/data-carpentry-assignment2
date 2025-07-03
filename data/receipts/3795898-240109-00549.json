@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Jonathon",
+    "Date": "2024/01/09",
+    "GST": 7.35,
+    "Payments": [
+        {
+            "Amount": 24.24,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 56.56,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.4,
+            "Name": "Face wipes",
+            "Price": 10.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 5.4,
+            "Name": "Face wipes",
+            "Price": 10.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 19.8,
+            "Name": "Scissors",
+            "Price": 38.4,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:240109:00549",
+    "Sequence": 549,
+    "Terminal": 3,
+    "Total": 80.8
+}

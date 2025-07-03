@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Eric",
+    "Date": "2026/06/25",
+    "GST": 9.11,
+    "Payments": [
+        {
+            "Amount": 60.12,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 40.08,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 6.5,
+            "Name": "Pomade",
+            "Price": 15.2,
+            "Quantity": 3
+        },
+        {
+            "Cost": 11.4,
+            "Name": "Razorblade",
+            "Price": 18.2,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:260625:01527",
+    "Sequence": 1527,
+    "Terminal": 2,
+    "Total": 100.2
+}

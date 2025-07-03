@@ -1,0 +1,50 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Kevin",
+    "Date": "2024/10/22",
+    "GST": 6.66,
+    "Payments": [
+        {
+            "Amount": 58.64,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 14.66,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.5,
+            "Name": "Water bottle",
+            "Price": 7.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 11.4,
+            "Name": "Sync diving",
+            "Price": 22.0,
+            "Quantity": 1
+        },
+        {
+            "Cost": 6.9,
+            "Name": "Waterpolo",
+            "Price": 13.2,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Water bottle"
+        }
+    ],
+    "Reference": "5593822:241022:00699",
+    "Sequence": 699,
+    "Terminal": 5,
+    "Total": 73.3
+}

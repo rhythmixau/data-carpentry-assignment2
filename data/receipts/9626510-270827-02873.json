@@ -1,0 +1,54 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Levi",
+    "Customer": {
+        "Name": "Linda",
+        "Points_Earnt": 11925
+    },
+    "Date": "2027/08/27",
+    "GST": 11.15,
+    "Payments": [
+        {
+            "Amount": 3.35,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 119.25,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 6.8,
+            "Name": "Pepperoni",
+            "Price": 16.4,
+            "Quantity": 3
+        },
+        {
+            "Cost": 6.8,
+            "Name": "Pepperoni",
+            "Price": 16.4,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.0,
+            "Name": "Pancakes",
+            "Price": 8.9,
+            "Quantity": 2
+        },
+        {
+            "Cost": 4.1,
+            "Name": "Chips",
+            "Price": 7.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:270827:02873",
+    "Sequence": 2873,
+    "Terminal": 5,
+    "Total": 122.6
+}

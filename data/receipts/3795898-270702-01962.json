@@ -1,0 +1,52 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Eric",
+    "Date": "2027/07/02",
+    "GST": 29.05,
+    "Payments": [
+        {
+            "Amount": 319.6,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.3,
+            "Name": "Soap 500mL",
+            "Price": 8.2,
+            "Quantity": 3
+        },
+        {
+            "Cost": 8.2,
+            "Name": "Shaving cream",
+            "Price": 15.2,
+            "Quantity": 1
+        },
+        {
+            "Cost": 18.0,
+            "Name": "Cape white",
+            "Price": 56.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 32.2,
+            "Name": "Clippers kit",
+            "Price": 61.5,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 2,
+            "Product": "Cape white"
+        }
+    ],
+    "Reference": "3795898:270702:01962",
+    "Sequence": 1962,
+    "Terminal": 1,
+    "Total": 319.6
+}

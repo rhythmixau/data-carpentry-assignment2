@@ -1,0 +1,61 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Kevin",
+    "Date": "2024/10/09",
+    "GST": 8.98,
+    "Payments": [
+        {
+            "Amount": 88.88,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 9.88,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.4,
+            "Name": "Swim cap",
+            "Price": 11.2,
+            "Quantity": 3
+        },
+        {
+            "Cost": 1.7,
+            "Name": "Egg+Bac burger",
+            "Price": 5.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 2.5,
+            "Name": "Water bottle",
+            "Price": 7.8,
+            "Quantity": 3
+        },
+        {
+            "Cost": 11.4,
+            "Name": "Sync diving",
+            "Price": 22.0,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 2,
+            "Product": "Sync diving"
+        },
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Water bottle"
+        }
+    ],
+    "Reference": "5593822:241009:00687",
+    "Sequence": 687,
+    "Terminal": 3,
+    "Total": 98.75
+}

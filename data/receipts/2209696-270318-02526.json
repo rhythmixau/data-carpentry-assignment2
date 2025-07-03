@@ -1,0 +1,28 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Date": "2027/03/18",
+    "GST": 1.25,
+    "Payments": [
+        {
+            "Amount": 13.8,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.0,
+            "Name": "Long Black",
+            "Price": 4.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:270318:02526",
+    "Sequence": 2526,
+    "Terminal": 4,
+    "Total": 13.8
+}

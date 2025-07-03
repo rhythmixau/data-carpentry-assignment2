@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Date": "2027/06/11",
+    "GST": 2.64,
+    "Payments": [
+        {
+            "Amount": 14.5,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 14.5,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.0,
+            "Name": "Salmon bagel",
+            "Price": 15.2,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.0,
+            "Name": "Long Black",
+            "Price": 4.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.0,
+            "Name": "Long Black",
+            "Price": 4.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:270611:02662",
+    "Sequence": 2662,
+    "Terminal": 3,
+    "Total": 29.0
+}

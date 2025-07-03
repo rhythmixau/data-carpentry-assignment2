@@ -1,0 +1,28 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Eric",
+    "Date": "2025/03/24",
+    "GST": 5.14,
+    "Payments": [
+        {
+            "Amount": 56.5,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 29.0,
+            "Name": "Clippers kit",
+            "Price": 56.5,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:250324:01018",
+    "Sequence": 1018,
+    "Terminal": 5,
+    "Total": 56.5
+}

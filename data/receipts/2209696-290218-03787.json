@@ -1,0 +1,40 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Kelly",
+    "Date": "2029/02/18",
+    "GST": 2.32,
+    "Payments": [
+        {
+            "Amount": 25.5,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.4,
+            "Name": "Long Black",
+            "Price": 5.1,
+            "Quantity": 3
+        },
+        {
+            "Cost": 3.4,
+            "Name": "Long Black",
+            "Price": 5.1,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.4,
+            "Name": "Mocha",
+            "Price": 5.1,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290218:03787",
+    "Sequence": 3787,
+    "Terminal": 4,
+    "Total": 25.5
+}

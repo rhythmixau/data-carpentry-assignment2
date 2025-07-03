@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Hector",
+    "Customer": {
+        "Name": "Robin",
+        "Points_Earnt": 2677
+    },
+    "Date": "2029/05/29",
+    "GST": 2.43,
+    "Payments": [
+        {
+            "Amount": 21.42,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 5.36,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.3,
+            "Name": "Flat white",
+            "Price": 6.3,
+            "Quantity": 1
+        },
+        {
+            "Cost": 5.9,
+            "Name": "Ham toastie",
+            "Price": 9.1,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 3,
+            "Product": "Ham toastie"
+        }
+    ],
+    "Reference": "2209696:290529:03971",
+    "Sequence": 3971,
+    "Terminal": 5,
+    "Total": 26.77
+}

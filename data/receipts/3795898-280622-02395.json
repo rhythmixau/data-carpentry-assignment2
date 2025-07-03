@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Olivia",
+    "Customer": {
+        "Name": "Carol",
+        "Points_Earnt": 0
+    },
+    "Date": "2028/06/22",
+    "GST": 3.82,
+    "Payments": [
+        {
+            "Amount": 42.0,
+            "Method": "Loyalty Points"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 10.8,
+            "Name": "Spray bottle",
+            "Price": 25.4,
+            "Quantity": 1
+        },
+        {
+            "Cost": 7.1,
+            "Name": "Pomade",
+            "Price": 16.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:280622:02395",
+    "Sequence": 2395,
+    "Terminal": 2,
+    "Total": 42.0
+}

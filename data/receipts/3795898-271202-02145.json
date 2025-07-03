@@ -1,0 +1,56 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Eric",
+    "Customer": {
+        "Name": "Lisa",
+        "Points_Earnt": 14265
+    },
+    "Date": "2027/12/02",
+    "GST": 12.97,
+    "Payments": [
+        {
+            "Amount": 142.65,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 6.8,
+            "Name": "Pomade",
+            "Price": 15.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 6.8,
+            "Name": "Pomade",
+            "Price": 15.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 8.2,
+            "Name": "Shaving cream",
+            "Price": 15.2,
+            "Quantity": 3
+        },
+        {
+            "Cost": 32.2,
+            "Name": "Clippers kit",
+            "Price": 61.5,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 3,
+            "Product": "Pomade"
+        }
+    ],
+    "Reference": "3795898:271202:02145",
+    "Sequence": 2145,
+    "Terminal": 3,
+    "Total": 142.65
+}

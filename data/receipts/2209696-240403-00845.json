@@ -1,0 +1,56 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Date": "2024/04/03",
+    "GST": 13.08,
+    "Payments": [
+        {
+            "Amount": 134.3,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 9.58,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 12.0,
+            "Name": "Eggs benny",
+            "Price": 19.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 12.0,
+            "Name": "Eggs benny",
+            "Price": 19.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 4.2,
+            "Name": "Salmon bagel",
+            "Price": 13.2,
+            "Quantity": 2
+        },
+        {
+            "Cost": 12.0,
+            "Name": "Eggs benny",
+            "Price": 19.8,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.05,
+            "Per_Quantity": 1,
+            "Product": "Salmon bagel"
+        }
+    ],
+    "Reference": "2209696:240403:00845",
+    "Sequence": 845,
+    "Terminal": 1,
+    "Total": 143.88
+}

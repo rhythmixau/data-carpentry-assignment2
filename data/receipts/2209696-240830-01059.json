@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Date": "2024/08/30",
+    "GST": 3.93,
+    "Payments": [
+        {
+            "Amount": 34.56,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 8.64,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.4,
+            "Name": "Ham toastie",
+            "Price": 7.2,
+            "Quantity": 3
+        },
+        {
+            "Cost": 4.4,
+            "Name": "Ham toastie",
+            "Price": 7.2,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:240830:01059",
+    "Sequence": 1059,
+    "Terminal": 5,
+    "Total": 43.2
+}

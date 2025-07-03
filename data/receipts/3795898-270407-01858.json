@@ -1,0 +1,56 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Scott",
+    "Date": "2027/04/07",
+    "GST": 18.73,
+    "Payments": [
+        {
+            "Amount": 40.9,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 165.1,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 18.0,
+            "Name": "Cape white",
+            "Price": 56.0,
+            "Quantity": 2
+        },
+        {
+            "Cost": 12.0,
+            "Name": "Razorblade",
+            "Price": 18.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 10.2,
+            "Name": "Spray bottle",
+            "Price": 24.4,
+            "Quantity": 1
+        },
+        {
+            "Cost": 23.0,
+            "Name": "Scissors",
+            "Price": 43.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 2,
+            "Product": "Cape white"
+        }
+    ],
+    "Reference": "3795898:270407:01858",
+    "Sequence": 1858,
+    "Terminal": 4,
+    "Total": 206.0
+}

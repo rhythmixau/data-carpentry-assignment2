@@ -1,0 +1,51 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Donna",
+    "Date": "2029/01/15",
+    "GST": 13.17,
+    "Payments": [
+        {
+            "Amount": 144.9,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 13.8,
+            "Name": "Towel",
+            "Price": 20.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 13.8,
+            "Name": "Towel",
+            "Price": 20.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 9.1,
+            "Name": "Aquaerobics",
+            "Price": 16.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.15,
+            "Per_Quantity": 2,
+            "Product": "Towel"
+        },
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 2,
+            "Product": "Aquaerobics"
+        }
+    ],
+    "Reference": "5593822:290115:02240",
+    "Sequence": 2240,
+    "Terminal": 1,
+    "Total": 144.9
+}

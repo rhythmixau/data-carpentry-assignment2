@@ -1,0 +1,40 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Kevin",
+    "Date": "2025/01/03",
+    "GST": 3.51,
+    "Payments": [
+        {
+            "Amount": 38.64,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 7.3,
+            "Name": "Waterpolo",
+            "Price": 13.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.6,
+            "Name": "Casual access",
+            "Price": 6.9,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 1,
+            "Product": "Waterpolo"
+        }
+    ],
+    "Reference": "5593822:250103:00769",
+    "Sequence": 769,
+    "Terminal": 5,
+    "Total": 38.64
+}

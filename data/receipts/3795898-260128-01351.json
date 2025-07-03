@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Eric",
+    "Customer": {
+        "Name": "William",
+        "Points_Earnt": 1689
+    },
+    "Date": "2026/01/28",
+    "GST": 5.12,
+    "Payments": [
+        {
+            "Amount": 39.4,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 16.9,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 17.2,
+            "Name": "Cape white",
+            "Price": 54.0,
+            "Quantity": 1
+        },
+        {
+            "Cost": 5.0,
+            "Name": "Soap 500mL",
+            "Price": 7.9,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Cape white"
+        }
+    ],
+    "Reference": "3795898:260128:01351",
+    "Sequence": 1351,
+    "Terminal": 1,
+    "Total": 56.3
+}

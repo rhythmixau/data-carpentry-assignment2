@@ -1,0 +1,60 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Jennifer",
+    "Customer": {
+        "Name": "Cody",
+        "Points_Earnt": 9042
+    },
+    "Date": "2023/10/24",
+    "GST": 10.67,
+    "Payments": [
+        {
+            "Amount": 26.9,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 90.43,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 1.6,
+            "Name": "Egg+Bac burger",
+            "Price": 5.3,
+            "Quantity": 3
+        },
+        {
+            "Cost": 21.2,
+            "Name": "Rescue training",
+            "Price": 52.5,
+            "Quantity": 1
+        },
+        {
+            "Cost": 6.5,
+            "Name": "Aquaerobics",
+            "Price": 12.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 9.6,
+            "Name": "Towel",
+            "Price": 15.8,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.15,
+            "Per_Quantity": 1,
+            "Product": "Rescue training"
+        }
+    ],
+    "Reference": "5593822:231024:00383",
+    "Sequence": 383,
+    "Terminal": 4,
+    "Total": 117.33
+}

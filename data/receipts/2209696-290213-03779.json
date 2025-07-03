@@ -1,0 +1,56 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Kelly",
+    "Date": "2029/02/13",
+    "GST": 3.24,
+    "Payments": [
+        {
+            "Amount": 32.04,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 3.56,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.5,
+            "Name": "Cupcake",
+            "Price": 9.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.9,
+            "Name": "English muffin",
+            "Price": 8.3,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.3,
+            "Name": "Flat white",
+            "Price": 6.3,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.3,
+            "Name": "Flat white",
+            "Price": 6.3,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 2,
+            "Product": "Cupcake"
+        }
+    ],
+    "Reference": "2209696:290213:03779",
+    "Sequence": 3779,
+    "Terminal": 4,
+    "Total": 35.6
+}

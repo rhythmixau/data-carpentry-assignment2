@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Anthony",
+    "Customer": {
+        "Name": "Sherry",
+        "Points_Earnt": 12040
+    },
+    "Date": "2023/08/21",
+    "GST": 10.95,
+    "Payments": [
+        {
+            "Amount": 120.4,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.3,
+            "Name": "Hairwax",
+            "Price": 13.2,
+            "Quantity": 3
+        },
+        {
+            "Cost": 5.3,
+            "Name": "Hairwax",
+            "Price": 13.2,
+            "Quantity": 3
+        },
+        {
+            "Cost": 8.3,
+            "Name": "Spray bottle",
+            "Price": 20.6,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:230821:00406",
+    "Sequence": 406,
+    "Terminal": 4,
+    "Total": 120.4
+}

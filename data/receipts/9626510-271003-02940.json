@@ -1,0 +1,40 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Amber",
+    "Date": "2027/10/03",
+    "GST": 8.95,
+    "Payments": [
+        {
+            "Amount": 98.4,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.9,
+            "Name": "Vego",
+            "Price": 15.2,
+            "Quantity": 3
+        },
+        {
+            "Cost": 12.8,
+            "Name": "Three meat",
+            "Price": 20.0,
+            "Quantity": 1
+        },
+        {
+            "Cost": 6.8,
+            "Name": "Pepperoni",
+            "Price": 16.4,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:271003:02940",
+    "Sequence": 2940,
+    "Terminal": 3,
+    "Total": 98.4
+}

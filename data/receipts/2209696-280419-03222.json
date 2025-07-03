@@ -1,0 +1,50 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Nathaniel",
+    "Date": "2028/04/19",
+    "GST": 3.96,
+    "Payments": [
+        {
+            "Amount": 4.36,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 39.2,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.2,
+            "Name": "Long Black",
+            "Price": 4.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.2,
+            "Name": "Mocha",
+            "Price": 4.8,
+            "Quantity": 3
+        },
+        {
+            "Cost": 5.6,
+            "Name": "Ham toastie",
+            "Price": 8.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 1,
+            "Product": "Long Black"
+        }
+    ],
+    "Reference": "2209696:280419:03222",
+    "Sequence": 3222,
+    "Terminal": 3,
+    "Total": 43.56
+}

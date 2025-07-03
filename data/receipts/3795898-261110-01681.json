@@ -1,0 +1,56 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Scott",
+    "Date": "2026/11/10",
+    "GST": 41.26,
+    "Payments": [
+        {
+            "Amount": 272.34,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 181.56,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 17.2,
+            "Name": "Cape white",
+            "Price": 54.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 31.0,
+            "Name": "Clippers kit",
+            "Price": 59.5,
+            "Quantity": 1
+        },
+        {
+            "Cost": 31.0,
+            "Name": "Clippers kit",
+            "Price": 59.5,
+            "Quantity": 3
+        },
+        {
+            "Cost": 15.2,
+            "Name": "Broom",
+            "Price": 47.2,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Cape white"
+        }
+    ],
+    "Reference": "3795898:261110:01681",
+    "Sequence": 1681,
+    "Terminal": 1,
+    "Total": 453.9
+}

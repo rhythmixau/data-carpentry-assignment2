@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Kevin",
+    "Date": "2025/12/16",
+    "GST": 6.75,
+    "Payments": [
+        {
+            "Amount": 37.1,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 37.1,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.1,
+            "Name": "Shampoo",
+            "Price": 5.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 12.0,
+            "Name": "Swim goggles",
+            "Price": 22.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 12.0,
+            "Name": "Swim goggles",
+            "Price": 22.8,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:251216:01093",
+    "Sequence": 1093,
+    "Terminal": 3,
+    "Total": 74.2
+}

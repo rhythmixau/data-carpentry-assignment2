@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Customer": {
+        "Name": "Dorothy",
+        "Points_Earnt": 9600
+    },
+    "Date": "2022/08/26",
+    "GST": 8.73,
+    "Payments": [
+        {
+            "Amount": 0.85,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 95.15,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 10.8,
+            "Name": "Eggs benny",
+            "Price": 18.0,
+            "Quantity": 2
+        },
+        {
+            "Cost": 10.8,
+            "Name": "Eggs benny",
+            "Price": 18.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 2.4,
+            "Name": "English muffin",
+            "Price": 6.0,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:220826:00076",
+    "Sequence": 76,
+    "Terminal": 2,
+    "Total": 96.0
+}

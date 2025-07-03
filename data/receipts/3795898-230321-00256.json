@@ -1,0 +1,61 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Jonathon",
+    "Date": "2023/03/21",
+    "GST": 16.72,
+    "Payments": [
+        {
+            "Amount": 55.17,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 128.73,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 8.9,
+            "Name": "Classic brush",
+            "Price": 14.8,
+            "Quantity": 3
+        },
+        {
+            "Cost": 14.2,
+            "Name": "Cape white",
+            "Price": 46.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 4.2,
+            "Name": "Soap 500mL",
+            "Price": 6.9,
+            "Quantity": 2
+        },
+        {
+            "Cost": 14.2,
+            "Name": "Cape white",
+            "Price": 46.8,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 2,
+            "Product": "Soap 500mL"
+        },
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 3,
+            "Product": "Classic brush"
+        }
+    ],
+    "Reference": "3795898:230321:00256",
+    "Sequence": 256,
+    "Terminal": 3,
+    "Total": 183.9
+}

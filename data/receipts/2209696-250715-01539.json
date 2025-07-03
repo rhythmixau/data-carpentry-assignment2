@@ -1,0 +1,52 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Date": "2025/07/15",
+    "GST": 5.48,
+    "Payments": [
+        {
+            "Amount": 60.24,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.4,
+            "Name": "Salmon bagel",
+            "Price": 13.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 2.7,
+            "Name": "Cupcake",
+            "Price": 8.1,
+            "Quantity": 3
+        },
+        {
+            "Cost": 3.3,
+            "Name": "Flat white",
+            "Price": 5.2,
+            "Quantity": 3
+        },
+        {
+            "Cost": 2.7,
+            "Name": "Cupcake",
+            "Price": 8.1,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.15,
+            "Per_Quantity": 2,
+            "Product": "Flat white"
+        }
+    ],
+    "Reference": "2209696:250715:01539",
+    "Sequence": 1539,
+    "Terminal": 3,
+    "Total": 60.24
+}

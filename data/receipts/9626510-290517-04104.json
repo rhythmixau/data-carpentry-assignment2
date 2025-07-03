@@ -1,0 +1,56 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Jennifer",
+    "Customer": {
+        "Name": "Steven",
+        "Points_Earnt": 11195
+    },
+    "Date": "2029/05/17",
+    "GST": 10.18,
+    "Payments": [
+        {
+            "Amount": 111.95,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 10.8,
+            "Name": "Ham and Cheese",
+            "Price": 16.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 10.8,
+            "Name": "Ham and Cheese",
+            "Price": 16.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 1.8,
+            "Name": "Water 600mL",
+            "Price": 5.1,
+            "Quantity": 3
+        },
+        {
+            "Cost": 7.6,
+            "Name": "Pepperoni",
+            "Price": 18.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Pepperoni"
+        }
+    ],
+    "Reference": "9626510:290517:04104",
+    "Sequence": 4104,
+    "Terminal": 5,
+    "Total": 111.95
+}

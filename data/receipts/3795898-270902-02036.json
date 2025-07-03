@@ -1,0 +1,50 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Scott",
+    "Date": "2027/09/02",
+    "GST": 15.85,
+    "Payments": [
+        {
+            "Amount": 30.4,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 143.95,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 6.8,
+            "Name": "Pomade",
+            "Price": 15.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 32.2,
+            "Name": "Clippers kit",
+            "Price": 61.5,
+            "Quantity": 2
+        },
+        {
+            "Cost": 6.8,
+            "Name": "Pomade",
+            "Price": 15.8,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 3,
+            "Product": "Pomade"
+        }
+    ],
+    "Reference": "3795898:270902:02036",
+    "Sequence": 2036,
+    "Terminal": 1,
+    "Total": 174.35
+}

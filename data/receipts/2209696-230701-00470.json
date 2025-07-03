@@ -1,0 +1,54 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Customer": {
+        "Name": "Robert",
+        "Points_Earnt": 375
+    },
+    "Date": "2023/07/01",
+    "GST": 2.96,
+    "Payments": [
+        {
+            "Amount": 28.8,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 3.75,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.6,
+            "Name": "English muffin",
+            "Price": 6.3,
+            "Quantity": 2
+        },
+        {
+            "Cost": 1.7,
+            "Name": "Macarons",
+            "Price": 4.2,
+            "Quantity": 1
+        },
+        {
+            "Cost": 2.6,
+            "Name": "English muffin",
+            "Price": 6.3,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 1,
+            "Product": "English muffin"
+        }
+    ],
+    "Reference": "2209696:230701:00470",
+    "Sequence": 470,
+    "Terminal": 2,
+    "Total": 32.55
+}

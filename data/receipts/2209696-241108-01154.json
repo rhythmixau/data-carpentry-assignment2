@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Date": "2024/11/08",
+    "GST": 1.44,
+    "Payments": [
+        {
+            "Amount": 11.09,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 4.75,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.8,
+            "Name": "English muffin",
+            "Price": 6.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 2.8,
+            "Name": "English muffin",
+            "Price": 6.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 2,
+            "Product": "English muffin"
+        }
+    ],
+    "Reference": "2209696:241108:01154",
+    "Sequence": 1154,
+    "Terminal": 5,
+    "Total": 15.84
+}

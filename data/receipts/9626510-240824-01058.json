@@ -1,0 +1,56 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Ronald",
+    "Date": "2024/08/24",
+    "GST": 10.62,
+    "Payments": [
+        {
+            "Amount": 35.05,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 81.77,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 8.1,
+            "Name": "Ham and Cheese",
+            "Price": 13.2,
+            "Quantity": 1
+        },
+        {
+            "Cost": 7.2,
+            "Name": "Garlic prawn",
+            "Price": 17.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 6.8,
+            "Name": "Hawaiian",
+            "Price": 13.2,
+            "Quantity": 2
+        },
+        {
+            "Cost": 8.1,
+            "Name": "Ham and Cheese",
+            "Price": 13.2,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.05,
+            "Per_Quantity": 3,
+            "Product": "Ham and Cheese"
+        }
+    ],
+    "Reference": "9626510:240824:01058",
+    "Sequence": 1058,
+    "Terminal": 2,
+    "Total": 116.82
+}

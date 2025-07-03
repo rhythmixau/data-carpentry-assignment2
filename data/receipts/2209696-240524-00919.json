@@ -1,0 +1,59 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Customer": {
+        "Name": "Scott",
+        "Points_Earnt": 3432
+    },
+    "Date": "2024/05/24",
+    "GST": 3.12,
+    "Payments": [
+        {
+            "Amount": 30.89,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 3.43,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.2,
+            "Name": "Salmon bagel",
+            "Price": 13.2,
+            "Quantity": 1
+        },
+        {
+            "Cost": 2.8,
+            "Name": "English muffin",
+            "Price": 6.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 4.2,
+            "Name": "Salmon bagel",
+            "Price": 13.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.05,
+            "Per_Quantity": 1,
+            "Product": "Salmon bagel"
+        },
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 2,
+            "Product": "English muffin"
+        }
+    ],
+    "Reference": "2209696:240524:00919",
+    "Sequence": 919,
+    "Terminal": 1,
+    "Total": 34.32
+}

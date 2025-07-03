@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Christian",
+    "Customer": {
+        "Name": "Luke",
+        "Points_Earnt": 7000
+    },
+    "Date": "2022/09/21",
+    "GST": 6.36,
+    "Payments": [
+        {
+            "Amount": 70.0,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 9.6,
+            "Name": "Three meat",
+            "Price": 16.0,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.0,
+            "Name": "Chips",
+            "Price": 6.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 7.2,
+            "Name": "Just Cheese",
+            "Price": 12.0,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:220921:00105",
+    "Sequence": 105,
+    "Terminal": 4,
+    "Total": 70.0
+}

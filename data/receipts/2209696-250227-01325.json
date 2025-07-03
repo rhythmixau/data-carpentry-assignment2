@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Customer": {
+        "Name": "Scott",
+        "Points_Earnt": 920
+    },
+    "Date": "2025/02/27",
+    "GST": 0.84,
+    "Payments": [
+        {
+            "Amount": 5.25,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 3.95,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 1.5,
+            "Name": "Glazed donut",
+            "Price": 4.6,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:250227:01325",
+    "Sequence": 1325,
+    "Terminal": 2,
+    "Total": 9.2
+}

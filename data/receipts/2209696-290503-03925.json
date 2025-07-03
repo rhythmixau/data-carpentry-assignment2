@@ -1,0 +1,40 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Hector",
+    "Date": "2029/05/03",
+    "GST": 2.29,
+    "Payments": [
+        {
+            "Amount": 25.15,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.9,
+            "Name": "Ham toastie",
+            "Price": 9.1,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.5,
+            "Name": "Cupcake",
+            "Price": 9.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.3,
+            "Name": "Flat white",
+            "Price": 6.3,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290503:03925",
+    "Sequence": 3925,
+    "Terminal": 2,
+    "Total": 25.2
+}

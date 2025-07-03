@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Scott",
+    "Customer": {
+        "Name": "Mariah",
+        "Points_Earnt": 28320
+    },
+    "Date": "2026/02/27",
+    "GST": 25.75,
+    "Payments": [
+        {
+            "Amount": 84.96,
+            "Method": "Credit Card"
+        },
+        {
+            "Amount": 198.24,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 15.2,
+            "Name": "Broom",
+            "Price": 47.2,
+            "Quantity": 3
+        },
+        {
+            "Cost": 15.2,
+            "Name": "Broom",
+            "Price": 47.2,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:260227:01390",
+    "Sequence": 1390,
+    "Terminal": 4,
+    "Total": 283.2
+}

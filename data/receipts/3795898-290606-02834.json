@@ -1,0 +1,52 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Kathleen",
+    "Date": "2029/06/06",
+    "GST": 23.73,
+    "Payments": [
+        {
+            "Amount": 261.08,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 7.6,
+            "Name": "Pomade",
+            "Price": 17.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 18.0,
+            "Name": "Broom",
+            "Price": 53.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 13.4,
+            "Name": "Razorblade",
+            "Price": 20.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 9.3,
+            "Name": "Shaving cream",
+            "Price": 16.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 2,
+            "Product": "Pomade"
+        }
+    ],
+    "Reference": "3795898:290606:02834",
+    "Sequence": 2834,
+    "Terminal": 5,
+    "Total": 261.08
+}

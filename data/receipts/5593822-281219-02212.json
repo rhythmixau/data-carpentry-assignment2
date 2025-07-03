@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Donna",
+    "Customer": {
+        "Name": "Patricia",
+        "Points_Earnt": 3830
+    },
+    "Date": "2028/12/19",
+    "GST": 3.48,
+    "Payments": [
+        {
+            "Amount": 22.98,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 15.32,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 8.5,
+            "Name": "Aquaerobics",
+            "Price": 15.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 2.2,
+            "Name": "Egg+Bac burger",
+            "Price": 6.7,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:281219:02212",
+    "Sequence": 2212,
+    "Terminal": 5,
+    "Total": 38.3
+}

@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Levi",
+    "Customer": {
+        "Name": "Danny",
+        "Points_Earnt": 4470
+    },
+    "Date": "2029/04/25",
+    "GST": 4.06,
+    "Payments": [
+        {
+            "Amount": 40.23,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 4.47,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.4,
+            "Name": "Pancakes",
+            "Price": 9.8,
+            "Quantity": 3
+        },
+        {
+            "Cost": 1.8,
+            "Name": "Water 600mL",
+            "Price": 5.1,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:290425:04060",
+    "Sequence": 4060,
+    "Terminal": 4,
+    "Total": 44.7
+}

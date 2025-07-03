@@ -1,0 +1,40 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Date": "2026/04/01",
+    "GST": 1.85,
+    "Payments": [
+        {
+            "Amount": 20.3,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.6,
+            "Name": "Flat white",
+            "Price": 5.5,
+            "Quantity": 2
+        },
+        {
+            "Cost": 6.4,
+            "Name": "Ham bagel",
+            "Price": 12.4,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Ham bagel"
+        }
+    ],
+    "Reference": "2209696:260401:01942",
+    "Sequence": 1942,
+    "Terminal": 2,
+    "Total": 20.3
+}

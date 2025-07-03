@@ -1,0 +1,61 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Derek",
+    "Date": "2029/03/10",
+    "GST": 6.06,
+    "Payments": [
+        {
+            "Amount": 15.95,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 50.7,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.0,
+            "Name": "Shampoo",
+            "Price": 7.1,
+            "Quantity": 2
+        },
+        {
+            "Cost": 4.0,
+            "Name": "Shampoo",
+            "Price": 7.1,
+            "Quantity": 3
+        },
+        {
+            "Cost": 2.4,
+            "Name": "Egg+Bac burger",
+            "Price": 7.1,
+            "Quantity": 3
+        },
+        {
+            "Cost": 9.1,
+            "Name": "Aquaerobics",
+            "Price": 16.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.2,
+            "Per_Quantity": 2,
+            "Product": "Shampoo"
+        },
+        {
+            "Discount": 0.05,
+            "Per_Quantity": 3,
+            "Product": "Egg+Bac burger"
+        }
+    ],
+    "Reference": "5593822:290310:02291",
+    "Sequence": 2291,
+    "Terminal": 1,
+    "Total": 66.66
+}

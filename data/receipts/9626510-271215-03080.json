@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Jennifer",
+    "Date": "2027/12/15",
+    "GST": 5.98,
+    "Payments": [
+        {
+            "Amount": 6.58,
+            "Method": "Credit Card"
+        },
+        {
+            "Amount": 59.22,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.9,
+            "Name": "Garlic bread",
+            "Price": 7.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 6.8,
+            "Name": "Pepperoni",
+            "Price": 16.4,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.0,
+            "Name": "Pancakes",
+            "Price": 8.9,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:271215:03080",
+    "Sequence": 3080,
+    "Terminal": 4,
+    "Total": 65.8
+}

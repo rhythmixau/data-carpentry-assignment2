@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Nathaniel",
+    "Customer": {
+        "Name": "Leslie",
+        "Points_Earnt": 2392
+    },
+    "Date": "2028/10/12",
+    "GST": 2.17,
+    "Payments": [
+        {
+            "Amount": 9.57,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 14.35,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.6,
+            "Name": "Ham toastie",
+            "Price": 8.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.2,
+            "Name": "Long Black",
+            "Price": 4.8,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 1,
+            "Product": "Long Black"
+        }
+    ],
+    "Reference": "2209696:281012:03530",
+    "Sequence": 3530,
+    "Terminal": 5,
+    "Total": 23.92
+}

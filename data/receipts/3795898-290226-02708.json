@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Carlos",
+    "Customer": {
+        "Name": "Rebecca",
+        "Points_Earnt": 6509
+    },
+    "Date": "2029/02/26",
+    "GST": 7.55,
+    "Payments": [
+        {
+            "Amount": 17.9,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 65.1,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.5,
+            "Name": "Hair tonic",
+            "Price": 16.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 5.5,
+            "Name": "Hair tonic",
+            "Price": 16.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 9.3,
+            "Name": "Shaving cream",
+            "Price": 16.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:290226:02708",
+    "Sequence": 2708,
+    "Terminal": 4,
+    "Total": 83.0
+}

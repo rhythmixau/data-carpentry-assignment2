@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Ronald",
+    "Date": "2026/09/24",
+    "GST": 4.86,
+    "Payments": [
+        {
+            "Amount": 44.3,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 9.2,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.0,
+            "Name": "Spicy chicken",
+            "Price": 15.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 4.7,
+            "Name": "Garlic bread",
+            "Price": 7.3,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:260924:02270",
+    "Sequence": 2270,
+    "Terminal": 2,
+    "Total": 53.5
+}

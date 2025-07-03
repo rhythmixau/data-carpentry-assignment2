@@ -1,0 +1,40 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Lauren",
+    "Date": "2029/05/04",
+    "GST": 3.55,
+    "Payments": [
+        {
+            "Amount": 39.0,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.5,
+            "Name": "Cupcake",
+            "Price": 9.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.3,
+            "Name": "Flat white",
+            "Price": 6.3,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.9,
+            "Name": "English muffin",
+            "Price": 8.3,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290504:03929",
+    "Sequence": 3929,
+    "Terminal": 5,
+    "Total": 39.0
+}

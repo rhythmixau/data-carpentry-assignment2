@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Amber",
+    "Date": "2025/02/15",
+    "GST": 5.08,
+    "Payments": [
+        {
+            "Amount": 2.2,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 53.69,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.4,
+            "Name": "Garlic bread",
+            "Price": 6.9,
+            "Quantity": 3
+        },
+        {
+            "Cost": 8.5,
+            "Name": "Ham and Cheese",
+            "Price": 13.8,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 3,
+            "Product": "Garlic bread"
+        }
+    ],
+    "Reference": "9626510:250215:01314",
+    "Sequence": 1314,
+    "Terminal": 2,
+    "Total": 55.89
+}

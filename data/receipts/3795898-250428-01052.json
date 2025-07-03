@@ -1,0 +1,46 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Jonathon",
+    "Date": "2025/04/28",
+    "GST": 11.08,
+    "Payments": [
+        {
+            "Amount": 121.86,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 10.6,
+            "Name": "Razorblade",
+            "Price": 17.2,
+            "Quantity": 2
+        },
+        {
+            "Cost": 29.0,
+            "Name": "Clippers kit",
+            "Price": 56.5,
+            "Quantity": 1
+        },
+        {
+            "Cost": 10.6,
+            "Name": "Razorblade",
+            "Price": 17.2,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.05,
+            "Per_Quantity": 2,
+            "Product": "Razorblade"
+        }
+    ],
+    "Reference": "3795898:250428:01052",
+    "Sequence": 1052,
+    "Terminal": 3,
+    "Total": 121.86
+}

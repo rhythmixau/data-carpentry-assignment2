@@ -1,0 +1,54 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Customer": {
+        "Name": "Gregory",
+        "Points_Earnt": 3925
+    },
+    "Date": "2026/10/15",
+    "GST": 3.87,
+    "Payments": [
+        {
+            "Amount": 3.35,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 39.25,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.6,
+            "Name": "Flat white",
+            "Price": 5.5,
+            "Quantity": 3
+        },
+        {
+            "Cost": 2.1,
+            "Name": "Macarons",
+            "Price": 4.9,
+            "Quantity": 3
+        },
+        {
+            "Cost": 2.1,
+            "Name": "Macarons",
+            "Price": 4.9,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.2,
+            "Per_Quantity": 3,
+            "Product": "Flat white"
+        }
+    ],
+    "Reference": "2209696:261015:02252",
+    "Sequence": 2252,
+    "Terminal": 5,
+    "Total": 42.6
+}

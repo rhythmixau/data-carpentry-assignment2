@@ -1,0 +1,61 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Customer": {
+        "Name": "Melissa",
+        "Points_Earnt": 6651
+    },
+    "Date": "2025/12/04",
+    "GST": 6.05,
+    "Payments": [
+        {
+            "Amount": 66.51,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.3,
+            "Name": "Flat white",
+            "Price": 5.2,
+            "Quantity": 2
+        },
+        {
+            "Cost": 2.7,
+            "Name": "Mocha",
+            "Price": 4.1,
+            "Quantity": 3
+        },
+        {
+            "Cost": 3.3,
+            "Name": "Brownie",
+            "Price": 5.2,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.4,
+            "Name": "Salmon bagel",
+            "Price": 13.8,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.15,
+            "Per_Quantity": 2,
+            "Product": "Mocha"
+        },
+        {
+            "Discount": 0.15,
+            "Per_Quantity": 2,
+            "Product": "Flat white"
+        }
+    ],
+    "Reference": "2209696:251204:01750",
+    "Sequence": 1750,
+    "Terminal": 3,
+    "Total": 66.51
+}

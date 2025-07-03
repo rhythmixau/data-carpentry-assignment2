@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Kathryn",
+    "Date": "2023/10/25",
+    "GST": 5.18,
+    "Payments": [
+        {
+            "Amount": 48.1,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 8.9,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 8.3,
+            "Name": "Spray bottle",
+            "Price": 20.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 9.7,
+            "Name": "Razorblade",
+            "Price": 15.8,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:231025:00477",
+    "Sequence": 477,
+    "Terminal": 4,
+    "Total": 57.0
+}

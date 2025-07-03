@@ -1,0 +1,56 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Ronald",
+    "Customer": {
+        "Name": "Mary",
+        "Points_Earnt": 11952
+    },
+    "Date": "2025/10/26",
+    "GST": 10.87,
+    "Payments": [
+        {
+            "Amount": 119.52,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 7.1,
+            "Name": "Hawaiian",
+            "Price": 13.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 4.7,
+            "Name": "Spicy chicken",
+            "Price": 15.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 8.5,
+            "Name": "Ham and Cheese",
+            "Price": 13.8,
+            "Quantity": 3
+        },
+        {
+            "Cost": 8.5,
+            "Name": "Ham and Cheese",
+            "Price": 13.8,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 2,
+            "Product": "Hawaiian"
+        }
+    ],
+    "Reference": "9626510:251026:01709",
+    "Sequence": 1709,
+    "Terminal": 2,
+    "Total": 119.52
+}

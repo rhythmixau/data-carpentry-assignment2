@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Customer": {
+        "Name": "Michael",
+        "Points_Earnt": 1635
+    },
+    "Date": "2025/01/11",
+    "GST": 1.49,
+    "Payments": [
+        {
+            "Amount": 16.35,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.3,
+            "Name": "Flat white",
+            "Price": 5.2,
+            "Quantity": 2
+        },
+        {
+            "Cost": 4.6,
+            "Name": "Ham toastie",
+            "Price": 7.5,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.15,
+            "Per_Quantity": 2,
+            "Product": "Flat white"
+        }
+    ],
+    "Reference": "2209696:250111:01250",
+    "Sequence": 1250,
+    "Terminal": 2,
+    "Total": 16.34
+}

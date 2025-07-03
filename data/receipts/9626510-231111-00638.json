@@ -1,0 +1,60 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Ronald",
+    "Customer": {
+        "Name": "Linda",
+        "Points_Earnt": 3755
+    },
+    "Date": "2023/11/11",
+    "GST": 3.41,
+    "Payments": [
+        {
+            "Amount": 15.02,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 22.53,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 1.5,
+            "Name": "Soft drink 2L",
+            "Price": 4.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 1.5,
+            "Name": "Soft drink 1L",
+            "Price": 3.7,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.2,
+            "Name": "Chips",
+            "Price": 6.3,
+            "Quantity": 3
+        },
+        {
+            "Cost": 1.5,
+            "Name": "Soft drink 1L",
+            "Price": 3.7,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.05,
+            "Per_Quantity": 3,
+            "Product": "Chips"
+        }
+    ],
+    "Reference": "9626510:231111:00638",
+    "Sequence": 638,
+    "Terminal": 4,
+    "Total": 37.55
+}

@@ -1,0 +1,46 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Kathleen",
+    "Date": "2029/06/29",
+    "GST": 8.0,
+    "Payments": [
+        {
+            "Amount": 88.0,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 13.4,
+            "Name": "Razorblade",
+            "Price": 20.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 5.5,
+            "Name": "Hair tonic",
+            "Price": 16.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 7.6,
+            "Name": "Pomade",
+            "Price": 17.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 5.5,
+            "Name": "Hair tonic",
+            "Price": 16.6,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:290629:02865",
+    "Sequence": 2865,
+    "Terminal": 4,
+    "Total": 88.0
+}

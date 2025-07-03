@@ -1,0 +1,56 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Ebony",
+    "Date": "2029/05/21",
+    "GST": 7.51,
+    "Payments": [
+        {
+            "Amount": 41.3,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 41.3,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 9.3,
+            "Name": "Shaving cream",
+            "Price": 16.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 7.7,
+            "Name": "Hairwax",
+            "Price": 17.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 7.7,
+            "Name": "Hairwax",
+            "Price": 17.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 7.7,
+            "Name": "Hairwax",
+            "Price": 17.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Hairwax"
+        }
+    ],
+    "Reference": "3795898:290521:02817",
+    "Sequence": 2817,
+    "Terminal": 4,
+    "Total": 82.6
+}

@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Anthony",
+    "Date": "2022/11/11",
+    "GST": 1.73,
+    "Payments": [
+        {
+            "Amount": 15.2,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 3.8,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.8,
+            "Name": "Face wipes",
+            "Price": 9.5,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:221111:00128",
+    "Sequence": 128,
+    "Terminal": 3,
+    "Total": 19.0
+}

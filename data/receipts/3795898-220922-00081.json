@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Anthony",
+    "Date": "2022/09/22",
+    "GST": 9.18,
+    "Payments": [
+        {
+            "Amount": 20.0,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 81.0,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 17.8,
+            "Name": "Cape grey",
+            "Price": 44.5,
+            "Quantity": 1
+        },
+        {
+            "Cost": 10.0,
+            "Name": "Hairspray",
+            "Price": 25.0,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.9,
+            "Name": "Soap 500mL",
+            "Price": 6.5,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:220922:00081",
+    "Sequence": 81,
+    "Terminal": 4,
+    "Total": 101.0
+}

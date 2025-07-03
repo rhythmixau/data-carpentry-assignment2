@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Grant",
+    "Customer": {
+        "Name": "Justin",
+        "Points_Earnt": 510
+    },
+    "Date": "2029/06/22",
+    "GST": 0.46,
+    "Payments": [
+        {
+            "Amount": 5.1,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.4,
+            "Name": "Long Black",
+            "Price": 5.1,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290622:04015",
+    "Sequence": 4015,
+    "Terminal": 1,
+    "Total": 5.1
+}

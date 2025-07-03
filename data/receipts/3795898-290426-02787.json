@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Barbara",
+    "Customer": {
+        "Name": "Valerie",
+        "Points_Earnt": 3320
+    },
+    "Date": "2029/04/26",
+    "GST": 3.02,
+    "Payments": [
+        {
+            "Amount": 33.2,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.5,
+            "Name": "Hair tonic",
+            "Price": 16.6,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:290426:02787",
+    "Sequence": 2787,
+    "Terminal": 5,
+    "Total": 33.2
+}

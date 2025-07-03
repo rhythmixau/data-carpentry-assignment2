@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Nathaniel",
+    "Customer": {
+        "Name": "Robin",
+        "Points_Earnt": 1462
+    },
+    "Date": "2028/07/13",
+    "GST": 1.33,
+    "Payments": [
+        {
+            "Amount": 14.62,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.2,
+            "Name": "Long Black",
+            "Price": 4.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.6,
+            "Name": "English muffin",
+            "Price": 7.9,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 1,
+            "Product": "Long Black"
+        }
+    ],
+    "Reference": "2209696:280713:03366",
+    "Sequence": 3366,
+    "Terminal": 3,
+    "Total": 14.62
+}

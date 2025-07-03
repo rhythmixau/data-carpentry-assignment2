@@ -1,0 +1,56 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Jeffrey",
+    "Customer": {
+        "Name": "Scott",
+        "Points_Earnt": 19300
+    },
+    "Date": "2029/06/15",
+    "GST": 17.55,
+    "Payments": [
+        {
+            "Amount": 193.0,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.0,
+            "Name": "Shampoo",
+            "Price": 7.1,
+            "Quantity": 3
+        },
+        {
+            "Cost": 15.0,
+            "Name": "Sync diving",
+            "Price": 27.2,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.0,
+            "Name": "Shampoo",
+            "Price": 7.1,
+            "Quantity": 2
+        },
+        {
+            "Cost": 29.2,
+            "Name": "Rescue training",
+            "Price": 68.0,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.2,
+            "Per_Quantity": 2,
+            "Product": "Shampoo"
+        }
+    ],
+    "Reference": "5593822:290615:02387",
+    "Sequence": 2387,
+    "Terminal": 4,
+    "Total": 193.02
+}

@@ -1,0 +1,50 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Joan",
+    "Date": "2029/06/14",
+    "GST": 8.95,
+    "Payments": [
+        {
+            "Amount": 29.55,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 68.95,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.5,
+            "Name": "Hair tonic",
+            "Price": 16.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 13.4,
+            "Name": "Razorblade",
+            "Price": 20.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 11.6,
+            "Name": "Spray bottle",
+            "Price": 26.8,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Spray bottle"
+        }
+    ],
+    "Reference": "3795898:290614:02844",
+    "Sequence": 2844,
+    "Terminal": 4,
+    "Total": 98.5
+}

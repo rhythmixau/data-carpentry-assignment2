@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Customer": {
+        "Name": "Daniel",
+        "Points_Earnt": 2806
+    },
+    "Date": "2023/12/23",
+    "GST": 2.55,
+    "Payments": [
+        {
+            "Amount": 28.06,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.3,
+            "Name": "Mocha",
+            "Price": 3.7,
+            "Quantity": 3
+        },
+        {
+            "Cost": 5.3,
+            "Name": "Ham bagel",
+            "Price": 10.6,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.2,
+            "Per_Quantity": 2,
+            "Product": "Ham bagel"
+        }
+    ],
+    "Reference": "2209696:231223:00703",
+    "Sequence": 703,
+    "Terminal": 1,
+    "Total": 28.06
+}

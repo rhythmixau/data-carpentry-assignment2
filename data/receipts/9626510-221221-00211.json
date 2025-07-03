@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Joyce",
+    "Date": "2022/12/21",
+    "GST": 2.82,
+    "Payments": [
+        {
+            "Amount": 11.65,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 19.35,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.6,
+            "Name": "Garlic bread",
+            "Price": 6.0,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.0,
+            "Name": "Chips",
+            "Price": 6.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 1.1,
+            "Name": "Water 600mL",
+            "Price": 3.5,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:221221:00211",
+    "Sequence": 211,
+    "Terminal": 4,
+    "Total": 31.0
+}

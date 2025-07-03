@@ -1,0 +1,59 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Customer": {
+        "Name": "Leslie",
+        "Points_Earnt": 6786
+    },
+    "Date": "2025/05/06",
+    "GST": 6.17,
+    "Payments": [
+        {
+            "Amount": 20.85,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 47.01,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.3,
+            "Name": "Flat white",
+            "Price": 5.2,
+            "Quantity": 3
+        },
+        {
+            "Cost": 5.9,
+            "Name": "Ham bagel",
+            "Price": 11.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 4.6,
+            "Name": "Ham toastie",
+            "Price": 7.5,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.15,
+            "Per_Quantity": 2,
+            "Product": "Flat white"
+        },
+        {
+            "Discount": 0.15,
+            "Per_Quantity": 2,
+            "Product": "Ham bagel"
+        }
+    ],
+    "Reference": "2209696:250506:01427",
+    "Sequence": 1427,
+    "Terminal": 5,
+    "Total": 67.86
+}

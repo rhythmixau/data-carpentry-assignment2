@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Jonathon",
+    "Customer": {
+        "Name": "Scott",
+        "Points_Earnt": 23940
+    },
+    "Date": "2026/01/05",
+    "GST": 21.76,
+    "Payments": [
+        {
+            "Amount": 191.52,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 47.88,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 22.0,
+            "Name": "Scissors",
+            "Price": 42.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 22.0,
+            "Name": "Scissors",
+            "Price": 42.0,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.05,
+            "Per_Quantity": 1,
+            "Product": "Scissors"
+        }
+    ],
+    "Reference": "3795898:260105:01327",
+    "Sequence": 1327,
+    "Terminal": 3,
+    "Total": 239.4
+}

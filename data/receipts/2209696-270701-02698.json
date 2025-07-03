@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Customer": {
+        "Name": "Leslie",
+        "Points_Earnt": 920
+    },
+    "Date": "2027/07/01",
+    "GST": 0.84,
+    "Payments": [
+        {
+            "Amount": 7.36,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 1.84,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.0,
+            "Name": "Long Black",
+            "Price": 4.6,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:270701:02698",
+    "Sequence": 2698,
+    "Terminal": 3,
+    "Total": 9.2
+}

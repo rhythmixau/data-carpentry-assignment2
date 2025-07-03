@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Nathaniel",
+    "Customer": {
+        "Name": "Gregory",
+        "Points_Earnt": 3950
+    },
+    "Date": "2028/09/26",
+    "GST": 3.59,
+    "Payments": [
+        {
+            "Amount": 18.3,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 21.2,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.6,
+            "Name": "English muffin",
+            "Price": 7.9,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.6,
+            "Name": "English muffin",
+            "Price": 7.9,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.6,
+            "Name": "English muffin",
+            "Price": 7.9,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:280926:03504",
+    "Sequence": 3504,
+    "Terminal": 2,
+    "Total": 39.5
+}

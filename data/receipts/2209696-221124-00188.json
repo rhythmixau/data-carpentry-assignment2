@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Customer": {
+        "Name": "Leslie",
+        "Points_Earnt": 500
+    },
+    "Date": "2022/11/24",
+    "GST": 0.45,
+    "Payments": [
+        {
+            "Amount": 3.0,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 2.0,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.0,
+            "Name": "Cappuccino",
+            "Price": 5.0,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:221124:00188",
+    "Sequence": 188,
+    "Terminal": 1,
+    "Total": 5.0
+}

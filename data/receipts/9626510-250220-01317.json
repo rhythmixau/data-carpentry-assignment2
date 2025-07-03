@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Amber",
+    "Customer": {
+        "Name": "Linda",
+        "Points_Earnt": 520
+    },
+    "Date": "2025/02/20",
+    "GST": 0.47,
+    "Payments": [
+        {
+            "Amount": 5.2,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 1.7,
+            "Name": "Soft drink 2L",
+            "Price": 5.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:250220:01317",
+    "Sequence": 1317,
+    "Terminal": 2,
+    "Total": 5.2
+}

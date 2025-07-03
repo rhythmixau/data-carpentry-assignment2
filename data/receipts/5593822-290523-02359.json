@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Mary",
+    "Date": "2029/05/23",
+    "GST": 5.59,
+    "Payments": [
+        {
+            "Amount": 19.05,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 42.45,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 15.0,
+            "Name": "Sync diving",
+            "Price": 27.2,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.4,
+            "Name": "Hot chips",
+            "Price": 7.1,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:290523:02359",
+    "Sequence": 2359,
+    "Terminal": 4,
+    "Total": 61.5
+}

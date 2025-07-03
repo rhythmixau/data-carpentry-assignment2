@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Customer": {
+        "Name": "Ricardo",
+        "Points_Earnt": 930
+    },
+    "Date": "2028/11/08",
+    "GST": 0.85,
+    "Payments": [
+        {
+            "Amount": 2.79,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 6.51,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.3,
+            "Name": "Cupcake",
+            "Price": 9.3,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:281108:03583",
+    "Sequence": 3583,
+    "Terminal": 1,
+    "Total": 9.3
+}

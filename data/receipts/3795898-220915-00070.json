@@ -1,0 +1,50 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Jonathon",
+    "Customer": {
+        "Name": "Ashlee",
+        "Points_Earnt": 21650
+    },
+    "Date": "2022/09/15",
+    "GST": 19.68,
+    "Payments": [
+        {
+            "Amount": 216.5,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.8,
+            "Name": "Face wipes",
+            "Price": 9.5,
+            "Quantity": 2
+        },
+        {
+            "Cost": 17.8,
+            "Name": "Cape grey",
+            "Price": 44.5,
+            "Quantity": 3
+        },
+        {
+            "Cost": 9.0,
+            "Name": "Razorblade",
+            "Price": 15.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 4.8,
+            "Name": "Face wipes",
+            "Price": 9.5,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:220915:00070",
+    "Sequence": 70,
+    "Terminal": 4,
+    "Total": 216.5
+}

@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Tara",
+    "Date": "2022/07/17",
+    "GST": 2.27,
+    "Payments": [
+        {
+            "Amount": 3.7,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 21.3,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.0,
+            "Name": "Chips",
+            "Price": 6.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 2.1,
+            "Name": "Pancakes",
+            "Price": 7.0,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:220717:00022",
+    "Sequence": 22,
+    "Terminal": 5,
+    "Total": 25.0
+}

@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Kathryn",
+    "Customer": {
+        "Name": "Brianna",
+        "Points_Earnt": 19740
+    },
+    "Date": "2024/07/17",
+    "GST": 17.95,
+    "Payments": [
+        {
+            "Amount": 72.25,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 125.15,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 11.2,
+            "Name": "Hairspray",
+            "Price": 27.4,
+            "Quantity": 3
+        },
+        {
+            "Cost": 19.8,
+            "Name": "Scissors",
+            "Price": 38.4,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:240717:00749",
+    "Sequence": 749,
+    "Terminal": 3,
+    "Total": 197.4
+}

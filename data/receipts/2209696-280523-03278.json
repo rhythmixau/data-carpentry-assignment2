@@ -1,0 +1,34 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Date": "2028/05/23",
+    "GST": 2.87,
+    "Payments": [
+        {
+            "Amount": 31.6,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.9,
+            "Name": "Almond croissant",
+            "Price": 8.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.2,
+            "Name": "Mocha",
+            "Price": 4.8,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:280523:03278",
+    "Sequence": 3278,
+    "Terminal": 3,
+    "Total": 31.6
+}

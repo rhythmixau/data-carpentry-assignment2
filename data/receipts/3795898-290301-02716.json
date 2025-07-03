@@ -1,0 +1,28 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Carlos",
+    "Date": "2029/03/01",
+    "GST": 1.51,
+    "Payments": [
+        {
+            "Amount": 16.6,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 9.3,
+            "Name": "Shaving cream",
+            "Price": 16.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:290301:02716",
+    "Sequence": 2716,
+    "Terminal": 3,
+    "Total": 16.6
+}

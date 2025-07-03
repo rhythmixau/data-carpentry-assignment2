@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Jennifer",
+    "Date": "2023/02/14",
+    "GST": 5.25,
+    "Payments": [
+        {
+            "Amount": 31.15,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 26.65,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 9.6,
+            "Name": "Towel",
+            "Price": 15.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 10.8,
+            "Name": "Sync diving",
+            "Price": 21.0,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:230214:00170",
+    "Sequence": 170,
+    "Terminal": 5,
+    "Total": 57.8
+}

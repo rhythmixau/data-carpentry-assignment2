@@ -1,0 +1,49 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Ronald",
+    "Date": "2025/04/23",
+    "GST": 3.07,
+    "Payments": [
+        {
+            "Amount": 5.75,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 28.06,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.6,
+            "Name": "Chips",
+            "Price": 6.9,
+            "Quantity": 3
+        },
+        {
+            "Cost": 7.1,
+            "Name": "Hawaiian",
+            "Price": 13.8,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 2,
+            "Product": "Hawaiian"
+        },
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 3,
+            "Product": "Chips"
+        }
+    ],
+    "Reference": "9626510:250423:01425",
+    "Sequence": 1425,
+    "Terminal": 3,
+    "Total": 33.81
+}

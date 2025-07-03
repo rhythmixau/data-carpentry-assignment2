@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Kevin",
+    "Date": "2027/05/18",
+    "GST": 1.96,
+    "Payments": [
+        {
+            "Amount": 10.8,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 10.8,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.1,
+            "Name": "Egg+Bac burger",
+            "Price": 6.4,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.1,
+            "Name": "Casual access",
+            "Price": 7.6,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:270518:01600",
+    "Sequence": 1600,
+    "Terminal": 1,
+    "Total": 21.6
+}

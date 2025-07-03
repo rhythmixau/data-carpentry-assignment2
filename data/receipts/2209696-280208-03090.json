@@ -1,0 +1,28 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Date": "2028/02/08",
+    "GST": 2.35,
+    "Payments": [
+        {
+            "Amount": 25.8,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.9,
+            "Name": "Almond croissant",
+            "Price": 8.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:280208:03090",
+    "Sequence": 3090,
+    "Terminal": 3,
+    "Total": 25.8
+}

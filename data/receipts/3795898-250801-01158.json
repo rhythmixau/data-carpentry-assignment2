@@ -1,0 +1,28 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Eric",
+    "Date": "2025/08/01",
+    "GST": 1.31,
+    "Payments": [
+        {
+            "Amount": 14.4,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 6.0,
+            "Name": "Pomade",
+            "Price": 14.4,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:250801:01158",
+    "Sequence": 1158,
+    "Terminal": 5,
+    "Total": 14.4
+}

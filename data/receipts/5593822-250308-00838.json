@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Jennifer",
+    "Date": "2025/03/08",
+    "GST": 15.55,
+    "Payments": [
+        {
+            "Amount": 153.9,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 17.1,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 23.4,
+            "Name": "Rescue training",
+            "Price": 57.0,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:250308:00838",
+    "Sequence": 838,
+    "Terminal": 2,
+    "Total": 171.0
+}

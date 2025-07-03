@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Nathaniel",
+    "Customer": {
+        "Name": "Gregory",
+        "Points_Earnt": 1008
+    },
+    "Date": "2028/05/06",
+    "GST": 0.92,
+    "Payments": [
+        {
+            "Amount": 10.08,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.2,
+            "Name": "Long Black",
+            "Price": 4.8,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 1,
+            "Product": "Long Black"
+        }
+    ],
+    "Reference": "2209696:280506:03250",
+    "Sequence": 3250,
+    "Terminal": 5,
+    "Total": 10.08
+}

@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Customer": {
+        "Name": "Melissa",
+        "Points_Earnt": 885
+    },
+    "Date": "2025/08/15",
+    "GST": 0.8,
+    "Payments": [
+        {
+            "Amount": 8.85,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.3,
+            "Name": "Flat white",
+            "Price": 5.2,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.15,
+            "Per_Quantity": 2,
+            "Product": "Flat white"
+        }
+    ],
+    "Reference": "2209696:250815:01577",
+    "Sequence": 1577,
+    "Terminal": 3,
+    "Total": 8.84
+}

@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Customer": {
+        "Name": "Gregory",
+        "Points_Earnt": 1350
+    },
+    "Date": "2027/09/15",
+    "GST": 1.23,
+    "Payments": [
+        {
+            "Amount": 1.35,
+            "Method": "Credit Card"
+        },
+        {
+            "Amount": 12.15,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.0,
+            "Name": "Long Black",
+            "Price": 4.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.1,
+            "Name": "Cupcake",
+            "Price": 8.9,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:270915:02822",
+    "Sequence": 2822,
+    "Terminal": 5,
+    "Total": 13.5
+}

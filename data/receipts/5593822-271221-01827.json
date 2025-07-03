@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Donna",
+    "Customer": {
+        "Name": "Vicki",
+        "Points_Earnt": 18600
+    },
+    "Date": "2027/12/21",
+    "GST": 16.91,
+    "Payments": [
+        {
+            "Amount": 186.0,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 26.0,
+            "Name": "Rescue training",
+            "Price": 62.0,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:271221:01827",
+    "Sequence": 1827,
+    "Terminal": 3,
+    "Total": 186.0
+}

@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Customer": {
+        "Name": "Ricardo",
+        "Points_Earnt": 54
+    },
+    "Date": "2023/11/05",
+    "GST": 0.34,
+    "Payments": [
+        {
+            "Amount": 3.15,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 0.55,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.3,
+            "Name": "Mocha",
+            "Price": 3.7,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:231105:00638",
+    "Sequence": 638,
+    "Terminal": 3,
+    "Total": 3.7
+}

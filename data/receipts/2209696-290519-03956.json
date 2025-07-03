@@ -1,0 +1,28 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Lauren",
+    "Date": "2029/05/19",
+    "GST": 1.65,
+    "Payments": [
+        {
+            "Amount": 18.2,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.9,
+            "Name": "Ham toastie",
+            "Price": 9.1,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290519:03956",
+    "Sequence": 3956,
+    "Terminal": 4,
+    "Total": 18.2
+}

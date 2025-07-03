@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Donna",
+    "Customer": {
+        "Name": "Sarah",
+        "Points_Earnt": 190
+    },
+    "Date": "2028/01/03",
+    "GST": 6.71,
+    "Payments": [
+        {
+            "Amount": 1.9,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 71.95,
+            "Method": "Loyalty Points"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 8.5,
+            "Name": "Aquaerobics",
+            "Price": 15.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 14.2,
+            "Name": "Sync diving",
+            "Price": 25.8,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Sync diving"
+        }
+    ],
+    "Reference": "5593822:280103:01841",
+    "Sequence": 1841,
+    "Terminal": 3,
+    "Total": 73.85
+}

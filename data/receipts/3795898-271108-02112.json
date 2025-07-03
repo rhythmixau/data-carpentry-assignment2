@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Scott",
+    "Customer": {
+        "Name": "Rebecca",
+        "Points_Earnt": 820
+    },
+    "Date": "2027/11/08",
+    "GST": 0.75,
+    "Payments": [
+        {
+            "Amount": 8.2,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.3,
+            "Name": "Soap 500mL",
+            "Price": 8.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:271108:02112",
+    "Sequence": 2112,
+    "Terminal": 4,
+    "Total": 8.2
+}

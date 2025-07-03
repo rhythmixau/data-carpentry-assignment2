@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Ronald",
+    "Date": "2025/02/14",
+    "GST": 1.88,
+    "Payments": [
+        {
+            "Amount": 15.15,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 5.55,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.4,
+            "Name": "Garlic bread",
+            "Price": 6.9,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.6,
+            "Name": "Chips",
+            "Price": 6.9,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:250214:01313",
+    "Sequence": 1313,
+    "Terminal": 4,
+    "Total": 20.7
+}

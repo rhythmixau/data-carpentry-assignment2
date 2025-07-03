@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Maurice",
+    "Date": "2027/06/17",
+    "GST": 0.69,
+    "Payments": [
+        {
+            "Amount": 1.52,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 6.08,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.9,
+            "Name": "Garlic bread",
+            "Price": 7.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:270617:02752",
+    "Sequence": 2752,
+    "Terminal": 4,
+    "Total": 7.6
+}

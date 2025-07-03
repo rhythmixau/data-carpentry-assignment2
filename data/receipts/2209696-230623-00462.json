@@ -1,0 +1,52 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Date": "2023/06/23",
+    "GST": 4.95,
+    "Payments": [
+        {
+            "Amount": 54.46,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.3,
+            "Name": "Ham bagel",
+            "Price": 10.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 2.3,
+            "Name": "Mocha",
+            "Price": 3.7,
+            "Quantity": 2
+        },
+        {
+            "Cost": 2.3,
+            "Name": "Mocha",
+            "Price": 3.7,
+            "Quantity": 3
+        },
+        {
+            "Cost": 1.7,
+            "Name": "Macarons",
+            "Price": 4.2,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.2,
+            "Per_Quantity": 2,
+            "Product": "Ham bagel"
+        }
+    ],
+    "Reference": "2209696:230623:00462",
+    "Sequence": 462,
+    "Terminal": 5,
+    "Total": 54.46
+}

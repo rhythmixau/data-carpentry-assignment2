@@ -1,0 +1,50 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Date": "2026/08/01",
+    "GST": 2.59,
+    "Payments": [
+        {
+            "Amount": 25.6,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 2.84,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.0,
+            "Name": "Ham toastie",
+            "Price": 7.9,
+            "Quantity": 2
+        },
+        {
+            "Cost": 2.9,
+            "Name": "Cupcake",
+            "Price": 8.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 2.1,
+            "Name": "Macarons",
+            "Price": 4.9,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 1,
+            "Product": "Cupcake"
+        }
+    ],
+    "Reference": "2209696:260801:02136",
+    "Sequence": 2136,
+    "Terminal": 1,
+    "Total": 28.44
+}

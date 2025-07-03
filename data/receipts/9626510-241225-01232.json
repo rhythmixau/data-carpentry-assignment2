@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Tara",
+    "Date": "2024/12/25",
+    "GST": 0.6,
+    "Payments": [
+        {
+            "Amount": 4.35,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 2.25,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.2,
+            "Name": "Garlic bread",
+            "Price": 6.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:241225:01232",
+    "Sequence": 1232,
+    "Terminal": 4,
+    "Total": 6.6
+}

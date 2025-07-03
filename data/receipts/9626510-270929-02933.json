@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Levi",
+    "Customer": {
+        "Name": "Jeremy",
+        "Points_Earnt": 1710
+    },
+    "Date": "2027/09/29",
+    "GST": 1.55,
+    "Payments": [
+        {
+            "Amount": 17.1,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.9,
+            "Name": "Garlic bread",
+            "Price": 7.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 3,
+            "Product": "Garlic bread"
+        }
+    ],
+    "Reference": "9626510:270929:02933",
+    "Sequence": 2933,
+    "Terminal": 4,
+    "Total": 17.1
+}

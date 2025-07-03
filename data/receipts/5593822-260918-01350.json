@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Donna",
+    "Date": "2026/09/18",
+    "GST": 1.89,
+    "Payments": [
+        {
+            "Amount": 12.48,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 8.32,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.3,
+            "Name": "Shampoo",
+            "Price": 6.2,
+            "Quantity": 1
+        },
+        {
+            "Cost": 7.8,
+            "Name": "Waterpolo",
+            "Price": 14.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:260918:01350",
+    "Sequence": 1350,
+    "Terminal": 4,
+    "Total": 20.8
+}

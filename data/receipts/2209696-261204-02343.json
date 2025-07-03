@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Date": "2026/12/04",
+    "GST": 1.52,
+    "Payments": [
+        {
+            "Amount": 0.5,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 16.2,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.9,
+            "Name": "Long Black",
+            "Price": 4.4,
+            "Quantity": 2
+        },
+        {
+            "Cost": 5.0,
+            "Name": "Ham toastie",
+            "Price": 7.9,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:261204:02343",
+    "Sequence": 2343,
+    "Terminal": 1,
+    "Total": 16.7
+}

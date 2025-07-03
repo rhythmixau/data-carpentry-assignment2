@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Donna",
+    "Date": "2028/03/23",
+    "GST": 1.22,
+    "Payments": [
+        {
+            "Amount": 5.5,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 7.9,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.2,
+            "Name": "Egg+Bac burger",
+            "Price": 6.7,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:280323:01923",
+    "Sequence": 1923,
+    "Terminal": 4,
+    "Total": 13.4
+}

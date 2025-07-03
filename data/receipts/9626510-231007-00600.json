@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Tara",
+    "Customer": {
+        "Name": "Jeremy",
+        "Points_Earnt": 2310
+    },
+    "Date": "2023/10/07",
+    "GST": 3.44,
+    "Payments": [
+        {
+            "Amount": 14.7,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 23.1,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 7.6,
+            "Name": "Just Cheese",
+            "Price": 12.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 7.6,
+            "Name": "Just Cheese",
+            "Price": 12.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 2,
+            "Product": "Just Cheese"
+        }
+    ],
+    "Reference": "9626510:231007:00600",
+    "Sequence": 600,
+    "Terminal": 3,
+    "Total": 37.8
+}

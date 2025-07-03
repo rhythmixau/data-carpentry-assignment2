@@ -1,0 +1,45 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Date": "2023/03/14",
+    "GST": 2.9,
+    "Payments": [
+        {
+            "Amount": 31.85,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.2,
+            "Name": "Cappuccino",
+            "Price": 5.3,
+            "Quantity": 3
+        },
+        {
+            "Cost": 2.6,
+            "Name": "English muffin",
+            "Price": 6.3,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 2,
+            "Product": "Cappuccino"
+        },
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 1,
+            "Product": "English muffin"
+        }
+    ],
+    "Reference": "2209696:230314:00319",
+    "Sequence": 319,
+    "Terminal": 3,
+    "Total": 31.85
+}

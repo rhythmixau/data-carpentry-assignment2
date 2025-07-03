@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Hector",
+    "Customer": {
+        "Name": "Robert",
+        "Points_Earnt": 1020
+    },
+    "Date": "2029/03/29",
+    "GST": 0.93,
+    "Payments": [
+        {
+            "Amount": 9.4,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 0.8,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.4,
+            "Name": "Long Black",
+            "Price": 5.1,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290329:03859",
+    "Sequence": 3859,
+    "Terminal": 4,
+    "Total": 10.2
+}

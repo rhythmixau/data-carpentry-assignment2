@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Amber",
+    "Customer": {
+        "Name": "Steven",
+        "Points_Earnt": 114
+    },
+    "Date": "2027/11/25",
+    "GST": 1.82,
+    "Payments": [
+        {
+            "Amount": 18.85,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 1.15,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 12.8,
+            "Name": "Three meat",
+            "Price": 20.0,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:271125:03034",
+    "Sequence": 3034,
+    "Terminal": 1,
+    "Total": 20.0
+}

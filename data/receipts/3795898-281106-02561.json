@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Natasha",
+    "Customer": {
+        "Name": "Darren",
+        "Points_Earnt": 5880
+    },
+    "Date": "2028/11/06",
+    "GST": 5.35,
+    "Payments": [
+        {
+            "Amount": 5.88,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 52.92,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 8.7,
+            "Name": "Shaving cream",
+            "Price": 15.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 5.7,
+            "Name": "Soap 500mL",
+            "Price": 8.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 5.7,
+            "Name": "Soap 500mL",
+            "Price": 8.6,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:281106:02561",
+    "Sequence": 2561,
+    "Terminal": 2,
+    "Total": 58.8
+}

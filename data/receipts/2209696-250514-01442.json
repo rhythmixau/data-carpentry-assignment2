@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Date": "2025/05/14",
+    "GST": 2.93,
+    "Payments": [
+        {
+            "Amount": 3.22,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 28.98,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 1.5,
+            "Name": "Glazed donut",
+            "Price": 4.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.4,
+            "Name": "Salmon bagel",
+            "Price": 13.8,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:250514:01442",
+    "Sequence": 1442,
+    "Terminal": 4,
+    "Total": 32.2
+}

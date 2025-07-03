@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Date": "2022/12/16",
+    "GST": 0.55,
+    "Payments": [
+        {
+            "Amount": 1.8,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 4.2,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.4,
+            "Name": "English muffin",
+            "Price": 6.0,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:221216:00211",
+    "Sequence": 211,
+    "Terminal": 4,
+    "Total": 6.0
+}

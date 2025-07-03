@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Michael",
+    "Customer": {
+        "Name": "Rebecca",
+        "Points_Earnt": 21490
+    },
+    "Date": "2026/10/26",
+    "GST": 19.54,
+    "Payments": [
+        {
+            "Amount": 214.9,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 11.4,
+            "Name": "Razorblade",
+            "Price": 18.2,
+            "Quantity": 2
+        },
+        {
+            "Cost": 31.0,
+            "Name": "Clippers kit",
+            "Price": 59.5,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:261026:01664",
+    "Sequence": 1664,
+    "Terminal": 4,
+    "Total": 214.9
+}

@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Cheryl",
+    "Customer": {
+        "Name": "Catherine",
+        "Points_Earnt": 6030
+    },
+    "Date": "2029/05/03",
+    "GST": 5.48,
+    "Payments": [
+        {
+            "Amount": 47.4,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 12.9,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 11.6,
+            "Name": "Spray bottle",
+            "Price": 26.8,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Spray bottle"
+        }
+    ],
+    "Reference": "3795898:290503:02795",
+    "Sequence": 2795,
+    "Terminal": 4,
+    "Total": 60.3
+}

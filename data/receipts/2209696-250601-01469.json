@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Customer": {
+        "Name": "James",
+        "Points_Earnt": 930
+    },
+    "Date": "2025/06/01",
+    "GST": 0.85,
+    "Payments": [
+        {
+            "Amount": 9.3,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.7,
+            "Name": "Mocha",
+            "Price": 4.1,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.3,
+            "Name": "Brownie",
+            "Price": 5.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:250601:01469",
+    "Sequence": 1469,
+    "Terminal": 4,
+    "Total": 9.3
+}

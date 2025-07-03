@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Kelly",
+    "Date": "2029/03/08",
+    "GST": 3.11,
+    "Payments": [
+        {
+            "Amount": 12.55,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 21.65,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.3,
+            "Name": "Flat white",
+            "Price": 6.3,
+            "Quantity": 3
+        },
+        {
+            "Cost": 3.4,
+            "Name": "Mocha",
+            "Price": 5.1,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290308:03816",
+    "Sequence": 3816,
+    "Terminal": 2,
+    "Total": 34.2
+}

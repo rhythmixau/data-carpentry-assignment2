@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Levi",
+    "Customer": {
+        "Name": "Mary",
+        "Points_Earnt": 5320
+    },
+    "Date": "2027/12/04",
+    "GST": 4.84,
+    "Payments": [
+        {
+            "Amount": 26.6,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 26.6,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.1,
+            "Name": "Chips",
+            "Price": 7.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.9,
+            "Name": "Vego",
+            "Price": 15.2,
+            "Quantity": 2
+        },
+        {
+            "Cost": 4.1,
+            "Name": "Chips",
+            "Price": 7.6,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:271204:03057",
+    "Sequence": 3057,
+    "Terminal": 4,
+    "Total": 53.2
+}

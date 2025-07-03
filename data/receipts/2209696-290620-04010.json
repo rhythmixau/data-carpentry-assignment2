@@ -1,0 +1,50 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Hector",
+    "Customer": {
+        "Name": "Robin",
+        "Points_Earnt": 5670
+    },
+    "Date": "2029/06/20",
+    "GST": 5.15,
+    "Payments": [
+        {
+            "Amount": 56.7,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.5,
+            "Name": "Cupcake",
+            "Price": 9.8,
+            "Quantity": 3
+        },
+        {
+            "Cost": 3.5,
+            "Name": "Cupcake",
+            "Price": 9.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.2,
+            "Name": "Almond croissant",
+            "Price": 9.1,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 2,
+            "Product": "Cupcake"
+        }
+    ],
+    "Reference": "2209696:290620:04010",
+    "Sequence": 4010,
+    "Terminal": 5,
+    "Total": 56.7
+}

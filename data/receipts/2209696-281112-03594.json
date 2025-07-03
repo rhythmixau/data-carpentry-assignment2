@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Nathaniel",
+    "Date": "2028/11/12",
+    "GST": 3.25,
+    "Payments": [
+        {
+            "Amount": 29.3,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 6.4,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.0,
+            "Name": "Flat white",
+            "Price": 6.0,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.6,
+            "Name": "English muffin",
+            "Price": 7.9,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:281112:03594",
+    "Sequence": 3594,
+    "Terminal": 1,
+    "Total": 35.7
+}

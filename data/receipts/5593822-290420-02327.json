@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Angela",
+    "Customer": {
+        "Name": "Ashley",
+        "Points_Earnt": 3080
+    },
+    "Date": "2029/04/20",
+    "GST": 2.8,
+    "Payments": [
+        {
+            "Amount": 30.8,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.4,
+            "Name": "Hot chips",
+            "Price": 7.1,
+            "Quantity": 2
+        },
+        {
+            "Cost": 9.1,
+            "Name": "Aquaerobics",
+            "Price": 16.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:290420:02327",
+    "Sequence": 2327,
+    "Terminal": 2,
+    "Total": 30.8
+}

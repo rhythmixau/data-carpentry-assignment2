@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Date": "2023/06/11",
+    "GST": 0.76,
+    "Payments": [
+        {
+            "Amount": 6.72,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 1.68,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.6,
+            "Name": "Latte",
+            "Price": 4.2,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:230611:00442",
+    "Sequence": 442,
+    "Terminal": 2,
+    "Total": 8.4
+}

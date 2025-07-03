@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Levi",
+    "Date": "2028/10/06",
+    "GST": 2.15,
+    "Payments": [
+        {
+            "Amount": 11.95,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 11.75,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.3,
+            "Name": "Chips",
+            "Price": 7.9,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:281006:03647",
+    "Sequence": 3647,
+    "Terminal": 2,
+    "Total": 23.7
+}

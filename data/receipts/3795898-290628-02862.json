@@ -1,0 +1,28 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Shelby",
+    "Date": "2029/06/28",
+    "GST": 4.82,
+    "Payments": [
+        {
+            "Amount": 53.0,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 18.0,
+            "Name": "Broom",
+            "Price": 53.0,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:290628:02862",
+    "Sequence": 2862,
+    "Terminal": 1,
+    "Total": 53.0
+}

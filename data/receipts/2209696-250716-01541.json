@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Customer": {
+        "Name": "Daniel",
+        "Points_Earnt": 1040
+    },
+    "Date": "2025/07/16",
+    "GST": 0.95,
+    "Payments": [
+        {
+            "Amount": 10.4,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.3,
+            "Name": "Brownie",
+            "Price": 5.2,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:250716:01541",
+    "Sequence": 1541,
+    "Terminal": 2,
+    "Total": 10.4
+}

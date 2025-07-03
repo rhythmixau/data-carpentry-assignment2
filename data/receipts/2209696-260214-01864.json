@@ -1,0 +1,56 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Date": "2026/02/14",
+    "GST": 7.02,
+    "Payments": [
+        {
+            "Amount": 38.6,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 38.6,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.6,
+            "Name": "Flat white",
+            "Price": 5.5,
+            "Quantity": 1
+        },
+        {
+            "Cost": 6.4,
+            "Name": "Ham bagel",
+            "Price": 12.4,
+            "Quantity": 3
+        },
+        {
+            "Cost": 3.2,
+            "Name": "English muffin",
+            "Price": 7.3,
+            "Quantity": 3
+        },
+        {
+            "Cost": 3.2,
+            "Name": "English muffin",
+            "Price": 7.3,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Ham bagel"
+        }
+    ],
+    "Reference": "2209696:260214:01864",
+    "Sequence": 1864,
+    "Terminal": 5,
+    "Total": 77.2
+}

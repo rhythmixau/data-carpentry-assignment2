@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Donna",
+    "Customer": {
+        "Name": "Heather",
+        "Points_Earnt": 1242
+    },
+    "Date": "2025/01/02",
+    "GST": 1.13,
+    "Payments": [
+        {
+            "Amount": 11.18,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 1.24,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 7.3,
+            "Name": "Waterpolo",
+            "Price": 13.8,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 1,
+            "Product": "Waterpolo"
+        }
+    ],
+    "Reference": "5593822:250102:00766",
+    "Sequence": 766,
+    "Terminal": 5,
+    "Total": 12.42
+}

@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Kevin",
+    "Customer": {
+        "Name": "Charles",
+        "Points_Earnt": 2900
+    },
+    "Date": "2025/08/01",
+    "GST": 2.64,
+    "Payments": [
+        {
+            "Amount": 23.2,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 5.8,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.6,
+            "Name": "Swim cap",
+            "Price": 11.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 2.6,
+            "Name": "Hot chips",
+            "Price": 5.8,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:250801:00964",
+    "Sequence": 964,
+    "Terminal": 5,
+    "Total": 29.0
+}

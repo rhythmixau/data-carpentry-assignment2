@@ -1,0 +1,52 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Andrew",
+    "Date": "2029/06/14",
+    "GST": 5.29,
+    "Payments": [
+        {
+            "Amount": 58.15,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.4,
+            "Name": "Long Black",
+            "Price": 5.1,
+            "Quantity": 3
+        },
+        {
+            "Cost": 5.9,
+            "Name": "Ham toastie",
+            "Price": 9.1,
+            "Quantity": 3
+        },
+        {
+            "Cost": 2.0,
+            "Name": "Glazed donut",
+            "Price": 5.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 2.0,
+            "Name": "Glazed donut",
+            "Price": 5.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 3,
+            "Product": "Ham toastie"
+        }
+    ],
+    "Reference": "2209696:290614:04000",
+    "Sequence": 4000,
+    "Terminal": 5,
+    "Total": 58.17
+}

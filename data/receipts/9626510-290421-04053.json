@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Jennifer",
+    "Date": "2029/04/21",
+    "GST": 1.39,
+    "Payments": [
+        {
+            "Amount": 9.18,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 6.12,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 1.8,
+            "Name": "Water 600mL",
+            "Price": 5.1,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:290421:04053",
+    "Sequence": 4053,
+    "Terminal": 5,
+    "Total": 15.3
+}

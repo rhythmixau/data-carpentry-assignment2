@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Date": "2026/06/07",
+    "GST": 0.5,
+    "Payments": [
+        {
+            "Amount": 2.75,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 2.75,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.6,
+            "Name": "Flat white",
+            "Price": 5.5,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:260607:02051",
+    "Sequence": 2051,
+    "Terminal": 2,
+    "Total": 5.5
+}

@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Anthony",
+    "Date": "2022/07/06",
+    "GST": 13.0,
+    "Payments": [
+        {
+            "Amount": 85.8,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 57.2,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 17.8,
+            "Name": "Cape grey",
+            "Price": 44.5,
+            "Quantity": 3
+        },
+        {
+            "Cost": 4.8,
+            "Name": "Face wipes",
+            "Price": 9.5,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:220706:00008",
+    "Sequence": 8,
+    "Terminal": 5,
+    "Total": 143.0
+}

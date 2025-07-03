@@ -1,0 +1,53 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Customer": {
+        "Name": "Michelle",
+        "Points_Earnt": 3323
+    },
+    "Date": "2023/07/19",
+    "GST": 3.02,
+    "Payments": [
+        {
+            "Amount": 19.1,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 14.13,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.3,
+            "Name": "Ham bagel",
+            "Price": 10.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 2.6,
+            "Name": "English muffin",
+            "Price": 6.3,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 1,
+            "Product": "English muffin"
+        },
+        {
+            "Discount": 0.2,
+            "Per_Quantity": 2,
+            "Product": "Ham bagel"
+        }
+    ],
+    "Reference": "2209696:230719:00493",
+    "Sequence": 493,
+    "Terminal": 4,
+    "Total": 33.23
+}

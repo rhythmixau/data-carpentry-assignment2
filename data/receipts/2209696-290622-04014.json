@@ -1,0 +1,40 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Grant",
+    "Date": "2029/06/22",
+    "GST": 4.34,
+    "Payments": [
+        {
+            "Amount": 47.77,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.9,
+            "Name": "Ham toastie",
+            "Price": 9.1,
+            "Quantity": 3
+        },
+        {
+            "Cost": 4.2,
+            "Name": "Almond croissant",
+            "Price": 9.1,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 3,
+            "Product": "Ham toastie"
+        }
+    ],
+    "Reference": "2209696:290622:04014",
+    "Sequence": 4014,
+    "Terminal": 5,
+    "Total": 47.77
+}

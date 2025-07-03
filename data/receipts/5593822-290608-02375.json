@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Patricia",
+    "Customer": {
+        "Name": "Sarah",
+        "Points_Earnt": 2324
+    },
+    "Date": "2029/06/08",
+    "GST": 2.11,
+    "Payments": [
+        {
+            "Amount": 23.24,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 9.1,
+            "Name": "Aquaerobics",
+            "Price": 16.6,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 2,
+            "Product": "Aquaerobics"
+        }
+    ],
+    "Reference": "5593822:290608:02375",
+    "Sequence": 2375,
+    "Terminal": 3,
+    "Total": 23.24
+}

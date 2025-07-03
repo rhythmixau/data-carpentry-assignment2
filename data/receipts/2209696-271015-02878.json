@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Date": "2027/10/15",
+    "GST": 2.43,
+    "Payments": [
+        {
+            "Amount": 7.25,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 19.45,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.1,
+            "Name": "Cupcake",
+            "Price": 8.9,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:271015:02878",
+    "Sequence": 2878,
+    "Terminal": 4,
+    "Total": 26.7
+}

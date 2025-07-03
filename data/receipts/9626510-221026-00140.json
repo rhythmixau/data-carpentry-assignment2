@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Tara",
+    "Customer": {
+        "Name": "Steven",
+        "Points_Earnt": 930
+    },
+    "Date": "2022/10/26",
+    "GST": 1.09,
+    "Payments": [
+        {
+            "Amount": 2.7,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 9.3,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.6,
+            "Name": "Garlic bread",
+            "Price": 6.0,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:221026:00140",
+    "Sequence": 140,
+    "Terminal": 3,
+    "Total": 12.0
+}

@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Michael",
+    "Customer": {
+        "Name": "Samantha",
+        "Points_Earnt": 3640
+    },
+    "Date": "2026/10/27",
+    "GST": 3.31,
+    "Payments": [
+        {
+            "Amount": 36.4,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 11.4,
+            "Name": "Razorblade",
+            "Price": 18.2,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:261027:01666",
+    "Sequence": 1666,
+    "Terminal": 3,
+    "Total": 36.4
+}

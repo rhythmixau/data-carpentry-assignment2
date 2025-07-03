@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Michael",
+    "Date": "2028/02/07",
+    "GST": 13.51,
+    "Payments": [
+        {
+            "Amount": 14.86,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 133.74,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 8.7,
+            "Name": "Shaving cream",
+            "Price": 15.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 19.2,
+            "Name": "Cape white",
+            "Price": 58.5,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:280207:02220",
+    "Sequence": 2220,
+    "Terminal": 1,
+    "Total": 148.6
+}

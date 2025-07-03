@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Jennifer",
+    "Customer": {
+        "Name": "William",
+        "Points_Earnt": 3960
+    },
+    "Date": "2024/12/06",
+    "GST": 3.6,
+    "Payments": [
+        {
+            "Amount": 39.6,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 6.9,
+            "Name": "Waterpolo",
+            "Price": 13.2,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:241206:00738",
+    "Sequence": 738,
+    "Terminal": 4,
+    "Total": 39.6
+}

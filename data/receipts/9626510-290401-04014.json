@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Levi",
+    "Date": "2029/04/01",
+    "GST": 0.46,
+    "Payments": [
+        {
+            "Amount": 1.02,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 4.08,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 1.8,
+            "Name": "Water 600mL",
+            "Price": 5.1,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:290401:04014",
+    "Sequence": 4014,
+    "Terminal": 4,
+    "Total": 5.1
+}

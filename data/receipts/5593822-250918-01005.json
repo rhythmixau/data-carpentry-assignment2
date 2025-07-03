@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Jennifer",
+    "Customer": {
+        "Name": "Kenneth",
+        "Points_Earnt": 6046
+    },
+    "Date": "2025/09/18",
+    "GST": 5.5,
+    "Payments": [
+        {
+            "Amount": 5.8,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 54.66,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 7.3,
+            "Name": "Waterpolo",
+            "Price": 13.8,
+            "Quantity": 3
+        },
+        {
+            "Cost": 3.6,
+            "Name": "Swim cap",
+            "Price": 11.6,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 1,
+            "Product": "Waterpolo"
+        }
+    ],
+    "Reference": "5593822:250918:01005",
+    "Sequence": 1005,
+    "Terminal": 1,
+    "Total": 60.46
+}

@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Michael",
+    "Customer": {
+        "Name": "Earl",
+        "Points_Earnt": 1520
+    },
+    "Date": "2026/02/24",
+    "GST": 1.38,
+    "Payments": [
+        {
+            "Amount": 15.2,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 6.5,
+            "Name": "Pomade",
+            "Price": 15.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:260224:01383",
+    "Sequence": 1383,
+    "Terminal": 4,
+    "Total": 15.2
+}

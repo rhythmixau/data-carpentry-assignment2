@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Donna",
+    "Customer": {
+        "Name": "William",
+        "Points_Earnt": 620
+    },
+    "Date": "2026/11/24",
+    "GST": 0.56,
+    "Payments": [
+        {
+            "Amount": 6.2,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.8,
+            "Name": "Hot chips",
+            "Price": 6.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:261124:01426",
+    "Sequence": 1426,
+    "Terminal": 2,
+    "Total": 6.2
+}

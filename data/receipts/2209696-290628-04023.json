@@ -1,0 +1,56 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Andrew",
+    "Date": "2029/06/28",
+    "GST": 6.68,
+    "Payments": [
+        {
+            "Amount": 37.3,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 36.2,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.5,
+            "Name": "Cupcake",
+            "Price": 9.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 2.0,
+            "Name": "Glazed donut",
+            "Price": 5.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 4.2,
+            "Name": "Almond croissant",
+            "Price": 9.1,
+            "Quantity": 3
+        },
+        {
+            "Cost": 3.5,
+            "Name": "Cupcake",
+            "Price": 9.8,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 2,
+            "Product": "Cupcake"
+        }
+    ],
+    "Reference": "2209696:290628:04023",
+    "Sequence": 4023,
+    "Terminal": 2,
+    "Total": 73.5
+}

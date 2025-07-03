@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Kevin",
+    "Customer": {
+        "Name": "Cody",
+        "Points_Earnt": 1780
+    },
+    "Date": "2027/03/11",
+    "GST": 1.62,
+    "Payments": [
+        {
+            "Amount": 17.8,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.1,
+            "Name": "Water bottle",
+            "Price": 8.9,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:270311:01542",
+    "Sequence": 1542,
+    "Terminal": 5,
+    "Total": 17.8
+}

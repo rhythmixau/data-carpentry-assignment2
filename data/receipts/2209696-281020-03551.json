@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Date": "2028/10/20",
+    "GST": 3.59,
+    "Payments": [
+        {
+            "Amount": 11.85,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 27.65,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.6,
+            "Name": "English muffin",
+            "Price": 7.9,
+            "Quantity": 3
+        },
+        {
+            "Cost": 3.6,
+            "Name": "English muffin",
+            "Price": 7.9,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:281020:03551",
+    "Sequence": 3551,
+    "Terminal": 3,
+    "Total": 39.5
+}

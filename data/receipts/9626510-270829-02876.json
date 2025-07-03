@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Jennifer",
+    "Date": "2027/08/29",
+    "GST": 8.22,
+    "Payments": [
+        {
+            "Amount": 41.95,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 48.45,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.9,
+            "Name": "Vego",
+            "Price": 15.2,
+            "Quantity": 2
+        },
+        {
+            "Cost": 12.8,
+            "Name": "Three meat",
+            "Price": 20.0,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:270829:02876",
+    "Sequence": 2876,
+    "Terminal": 3,
+    "Total": 90.4
+}

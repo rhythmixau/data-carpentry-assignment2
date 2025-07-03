@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Customer": {
+        "Name": "Dorothy",
+        "Points_Earnt": 1025
+    },
+    "Date": "2028/03/09",
+    "GST": 2.54,
+    "Payments": [
+        {
+            "Amount": 17.65,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 10.25,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.3,
+            "Name": "Cupcake",
+            "Price": 9.3,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:280309:03149",
+    "Sequence": 3149,
+    "Terminal": 5,
+    "Total": 27.9
+}

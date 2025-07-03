@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Levi",
+    "Date": "2029/02/04",
+    "GST": 4.53,
+    "Payments": [
+        {
+            "Amount": 4.98,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 44.82,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 10.8,
+            "Name": "Ham and Cheese",
+            "Price": 16.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:290204:03903",
+    "Sequence": 3903,
+    "Terminal": 4,
+    "Total": 49.8
+}

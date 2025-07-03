@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Date": "2028/01/13",
+    "GST": 0.87,
+    "Payments": [
+        {
+            "Amount": 1.92,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 7.68,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.2,
+            "Name": "Mocha",
+            "Price": 4.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.2,
+            "Name": "Mocha",
+            "Price": 4.8,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:280113:03045",
+    "Sequence": 3045,
+    "Terminal": 1,
+    "Total": 9.6
+}

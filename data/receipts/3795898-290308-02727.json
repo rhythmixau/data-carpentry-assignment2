@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Carlos",
+    "Date": "2029/03/08",
+    "GST": 4.48,
+    "Payments": [
+        {
+            "Amount": 34.5,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 14.78,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 7.6,
+            "Name": "Pomade",
+            "Price": 17.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 2,
+            "Product": "Pomade"
+        }
+    ],
+    "Reference": "3795898:290308:02727",
+    "Sequence": 2727,
+    "Terminal": 1,
+    "Total": 49.28
+}

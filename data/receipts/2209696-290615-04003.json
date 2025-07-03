@@ -1,0 +1,40 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Robert",
+    "Date": "2029/06/15",
+    "GST": 6.4,
+    "Payments": [
+        {
+            "Amount": 70.4,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.2,
+            "Name": "Almond croissant",
+            "Price": 9.1,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.9,
+            "Name": "English muffin",
+            "Price": 8.3,
+            "Quantity": 3
+        },
+        {
+            "Cost": 4.2,
+            "Name": "Almond croissant",
+            "Price": 9.1,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290615:04003",
+    "Sequence": 4003,
+    "Terminal": 5,
+    "Total": 70.4
+}

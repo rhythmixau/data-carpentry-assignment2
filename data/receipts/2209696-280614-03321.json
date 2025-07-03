@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Nathaniel",
+    "Date": "2028/06/14",
+    "GST": 1.94,
+    "Payments": [
+        {
+            "Amount": 8.52,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 12.78,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.3,
+            "Name": "Cupcake",
+            "Price": 9.3,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.0,
+            "Name": "Flat white",
+            "Price": 6.0,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:280614:03321",
+    "Sequence": 3321,
+    "Terminal": 4,
+    "Total": 21.3
+}

@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Customer": {
+        "Name": "James",
+        "Points_Earnt": 4220
+    },
+    "Date": "2028/09/24",
+    "GST": 4.31,
+    "Payments": [
+        {
+            "Amount": 42.2,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 5.2,
+            "Method": "Loyalty Points"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.3,
+            "Name": "Salmon bagel",
+            "Price": 15.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 5.3,
+            "Name": "Salmon bagel",
+            "Price": 15.8,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:280924:03499",
+    "Sequence": 3499,
+    "Terminal": 4,
+    "Total": 47.4
+}

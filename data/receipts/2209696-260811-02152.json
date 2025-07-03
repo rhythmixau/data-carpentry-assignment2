@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Date": "2026/08/11",
+    "GST": 0.95,
+    "Payments": [
+        {
+            "Amount": 3.12,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 7.28,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.1,
+            "Name": "Macarons",
+            "Price": 4.9,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.6,
+            "Name": "Flat white",
+            "Price": 5.5,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:260811:02152",
+    "Sequence": 2152,
+    "Terminal": 1,
+    "Total": 10.4
+}

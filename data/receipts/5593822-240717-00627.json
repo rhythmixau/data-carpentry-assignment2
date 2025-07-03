@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Donna",
+    "Customer": {
+        "Name": "Sarah",
+        "Points_Earnt": 4685
+    },
+    "Date": "2024/07/17",
+    "GST": 5.82,
+    "Payments": [
+        {
+            "Amount": 46.85,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 17.15,
+            "Method": "Loyalty Points"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 11.4,
+            "Name": "Sync diving",
+            "Price": 22.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 3.4,
+            "Name": "Swim cap",
+            "Price": 11.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.3,
+            "Per_Quantity": 2,
+            "Product": "Sync diving"
+        }
+    ],
+    "Reference": "5593822:240717:00627",
+    "Sequence": 627,
+    "Terminal": 4,
+    "Total": 64.0
+}

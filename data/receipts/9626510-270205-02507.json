@@ -1,0 +1,34 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Levi",
+    "Date": "2027/02/05",
+    "GST": 4.91,
+    "Payments": [
+        {
+            "Amount": 54.0,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 8.5,
+            "Name": "Garlic prawn",
+            "Price": 20.0,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.15,
+            "Per_Quantity": 2,
+            "Product": "Garlic prawn"
+        }
+    ],
+    "Reference": "9626510:270205:02507",
+    "Sequence": 2507,
+    "Terminal": 4,
+    "Total": 54.0
+}

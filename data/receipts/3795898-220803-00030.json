@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Anthony",
+    "Date": "2022/08/03",
+    "GST": 5.82,
+    "Payments": [
+        {
+            "Amount": 32.0,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 32.0,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 10.0,
+            "Name": "Hairspray",
+            "Price": 25.0,
+            "Quantity": 2
+        },
+        {
+            "Cost": 8.4,
+            "Name": "Classic brush",
+            "Price": 14.0,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:220803:00030",
+    "Sequence": 30,
+    "Terminal": 1,
+    "Total": 64.0
+}

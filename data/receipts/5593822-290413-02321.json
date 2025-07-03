@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Derek",
+    "Customer": {
+        "Name": "Ashley",
+        "Points_Earnt": 3502
+    },
+    "Date": "2029/04/13",
+    "GST": 3.18,
+    "Payments": [
+        {
+            "Amount": 7.0,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 28.02,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 13.8,
+            "Name": "Towel",
+            "Price": 20.6,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.15,
+            "Per_Quantity": 2,
+            "Product": "Towel"
+        }
+    ],
+    "Reference": "5593822:290413:02321",
+    "Sequence": 2321,
+    "Terminal": 1,
+    "Total": 35.02
+}

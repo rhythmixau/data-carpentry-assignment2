@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Donna",
+    "Customer": {
+        "Name": "Scott",
+        "Points_Earnt": 1735
+    },
+    "Date": "2022/12/28",
+    "GST": 2.73,
+    "Payments": [
+        {
+            "Amount": 12.65,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 17.35,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.5,
+            "Name": "Shampoo",
+            "Price": 5.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 2.5,
+            "Name": "Shampoo",
+            "Price": 5.0,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:221228:00131",
+    "Sequence": 131,
+    "Terminal": 5,
+    "Total": 30.0
+}

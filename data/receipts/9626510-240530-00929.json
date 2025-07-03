@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Tara",
+    "Customer": {
+        "Name": "Linda",
+        "Points_Earnt": 1980
+    },
+    "Date": "2024/05/30",
+    "GST": 1.8,
+    "Payments": [
+        {
+            "Amount": 5.94,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 13.86,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.4,
+            "Name": "Chips",
+            "Price": 6.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:240530:00929",
+    "Sequence": 929,
+    "Terminal": 1,
+    "Total": 19.8
+}

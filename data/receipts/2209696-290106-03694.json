@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Lauren",
+    "Customer": {
+        "Name": "Scott",
+        "Points_Earnt": 815
+    },
+    "Date": "2029/01/06",
+    "GST": 1.85,
+    "Payments": [
+        {
+            "Amount": 12.25,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 8.15,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.4,
+            "Name": "Long Black",
+            "Price": 5.1,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.4,
+            "Name": "Long Black",
+            "Price": 5.1,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290106:03694",
+    "Sequence": 3694,
+    "Terminal": 5,
+    "Total": 20.4
+}

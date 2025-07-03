@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Nathaniel",
+    "Date": "2028/06/09",
+    "GST": 3.72,
+    "Payments": [
+        {
+            "Amount": 36.81,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 4.09,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.3,
+            "Name": "Salmon bagel",
+            "Price": 15.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 3.3,
+            "Name": "Cupcake",
+            "Price": 9.3,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:280609:03314",
+    "Sequence": 3314,
+    "Terminal": 3,
+    "Total": 40.9
+}

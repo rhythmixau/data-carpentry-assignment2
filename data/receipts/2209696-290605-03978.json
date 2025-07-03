@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Hector",
+    "Customer": {
+        "Name": "Robin",
+        "Points_Earnt": 594
+    },
+    "Date": "2029/06/05",
+    "GST": 1.65,
+    "Payments": [
+        {
+            "Amount": 12.25,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 5.95,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.2,
+            "Name": "Almond croissant",
+            "Price": 9.1,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290605:03978",
+    "Sequence": 3978,
+    "Terminal": 3,
+    "Total": 18.2
+}

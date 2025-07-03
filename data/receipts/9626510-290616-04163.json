@@ -1,0 +1,50 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Jennifer",
+    "Date": "2029/06/16",
+    "GST": 17.51,
+    "Payments": [
+        {
+            "Amount": 173.34,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 19.26,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 14.4,
+            "Name": "Three meat",
+            "Price": 22.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 9.1,
+            "Name": "Hawaiian",
+            "Price": 16.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 14.4,
+            "Name": "Three meat",
+            "Price": 22.0,
+            "Quantity": 3
+        },
+        {
+            "Cost": 14.4,
+            "Name": "Three meat",
+            "Price": 22.0,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:290616:04163",
+    "Sequence": 4163,
+    "Terminal": 5,
+    "Total": 192.6
+}

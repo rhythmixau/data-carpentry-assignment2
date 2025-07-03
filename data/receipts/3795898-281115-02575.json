@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Natasha",
+    "Date": "2028/11/15",
+    "GST": 9.85,
+    "Payments": [
+        {
+            "Amount": 10.83,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 97.47,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 19.2,
+            "Name": "Cape white",
+            "Price": 58.5,
+            "Quantity": 1
+        },
+        {
+            "Cost": 7.2,
+            "Name": "Hairwax",
+            "Price": 16.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:281115:02575",
+    "Sequence": 2575,
+    "Terminal": 2,
+    "Total": 108.3
+}

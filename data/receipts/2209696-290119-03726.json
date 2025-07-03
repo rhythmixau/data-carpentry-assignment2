@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Lauren",
+    "Date": "2029/01/19",
+    "GST": 1.97,
+    "Payments": [
+        {
+            "Amount": 0.9,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 20.8,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.3,
+            "Name": "Flat white",
+            "Price": 6.3,
+            "Quantity": 2
+        },
+        {
+            "Cost": 5.9,
+            "Name": "Ham toastie",
+            "Price": 9.1,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290119:03726",
+    "Sequence": 3726,
+    "Terminal": 3,
+    "Total": 21.7
+}

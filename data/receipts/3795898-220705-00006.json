@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Jonathon",
+    "Date": "2022/07/05",
+    "GST": 1.27,
+    "Payments": [
+        {
+            "Amount": 2.8,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 11.2,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 8.4,
+            "Name": "Classic brush",
+            "Price": 14.0,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:220705:00006",
+    "Sequence": 6,
+    "Terminal": 5,
+    "Total": 14.0
+}

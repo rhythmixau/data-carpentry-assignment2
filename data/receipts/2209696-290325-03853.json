@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Hector",
+    "Date": "2029/03/25",
+    "GST": 1.72,
+    "Payments": [
+        {
+            "Amount": 2.7,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 16.2,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.3,
+            "Name": "Flat white",
+            "Price": 6.3,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.3,
+            "Name": "Flat white",
+            "Price": 6.3,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290325:03853",
+    "Sequence": 3853,
+    "Terminal": 4,
+    "Total": 18.9
+}

@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Ronald",
+    "Customer": {
+        "Name": "Gary",
+        "Points_Earnt": 4500
+    },
+    "Date": "2025/09/10",
+    "GST": 4.09,
+    "Payments": [
+        {
+            "Amount": 45.0,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.7,
+            "Name": "Spicy chicken",
+            "Price": 15.0,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:250910:01642",
+    "Sequence": 1642,
+    "Terminal": 4,
+    "Total": 45.0
+}

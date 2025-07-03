@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Customer": {
+        "Name": "Scott",
+        "Points_Earnt": 150
+    },
+    "Date": "2024/04/20",
+    "GST": 0.4,
+    "Payments": [
+        {
+            "Amount": 2.9,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 1.5,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 1.8,
+            "Name": "Macarons",
+            "Price": 4.4,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:240420:00872",
+    "Sequence": 872,
+    "Terminal": 2,
+    "Total": 4.4
+}

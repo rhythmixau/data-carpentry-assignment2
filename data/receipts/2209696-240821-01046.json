@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Customer": {
+        "Name": "Dorothy",
+        "Points_Earnt": 1380
+    },
+    "Date": "2024/08/21",
+    "GST": 1.25,
+    "Payments": [
+        {
+            "Amount": 11.04,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 2.76,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.4,
+            "Name": "Ham toastie",
+            "Price": 7.2,
+            "Quantity": 1
+        },
+        {
+            "Cost": 2.8,
+            "Name": "English muffin",
+            "Price": 6.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:240821:01046",
+    "Sequence": 1046,
+    "Terminal": 3,
+    "Total": 13.8
+}

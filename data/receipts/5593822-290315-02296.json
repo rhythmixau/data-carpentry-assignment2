@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Derek",
+    "Date": "2029/03/15",
+    "GST": 2.47,
+    "Payments": [
+        {
+            "Amount": 13.6,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 13.6,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 15.0,
+            "Name": "Sync diving",
+            "Price": 27.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:290315:02296",
+    "Sequence": 2296,
+    "Terminal": 4,
+    "Total": 27.2
+}

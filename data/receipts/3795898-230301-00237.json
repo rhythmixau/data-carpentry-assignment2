@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Jonathon",
+    "Date": "2023/03/01",
+    "GST": 4.25,
+    "Payments": [
+        {
+            "Amount": 4.68,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 42.12,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 14.2,
+            "Name": "Cape white",
+            "Price": 46.8,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:230301:00237",
+    "Sequence": 237,
+    "Terminal": 2,
+    "Total": 46.8
+}

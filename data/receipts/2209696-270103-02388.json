@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Customer": {
+        "Name": "Sandra",
+        "Points_Earnt": 3400
+    },
+    "Date": "2027/01/03",
+    "GST": 3.09,
+    "Payments": [
+        {
+            "Amount": 23.8,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 10.2,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.0,
+            "Name": "Mocha",
+            "Price": 4.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 4.1,
+            "Name": "Cappuccino",
+            "Price": 6.4,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.0,
+            "Name": "Long Black",
+            "Price": 4.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:270103:02388",
+    "Sequence": 2388,
+    "Terminal": 1,
+    "Total": 34.0
+}

@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Kelly",
+    "Customer": {
+        "Name": "Ricardo",
+        "Points_Earnt": 1820
+    },
+    "Date": "2029/04/07",
+    "GST": 1.65,
+    "Payments": [
+        {
+            "Amount": 12.74,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 5.46,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.9,
+            "Name": "Ham toastie",
+            "Price": 9.1,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290407:03875",
+    "Sequence": 3875,
+    "Terminal": 5,
+    "Total": 18.2
+}

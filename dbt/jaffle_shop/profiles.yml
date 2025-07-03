@@ -1,9 +1,0 @@
-duckdb_profile:
-  target: dev
-  outputs:
-    dev:
-      path: /data/dbt.duckdb
-      type: duckdb
-      extensions:
-        - httpfs
-      threads: 5

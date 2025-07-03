@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Jennifer",
+    "Customer": {
+        "Name": "Aaron",
+        "Points_Earnt": 1364
+    },
+    "Date": "2029/02/09",
+    "GST": 1.24,
+    "Payments": [
+        {
+            "Amount": 3.95,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 9.7,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 7.6,
+            "Name": "Pepperoni",
+            "Price": 18.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.25,
+            "Per_Quantity": 1,
+            "Product": "Pepperoni"
+        }
+    ],
+    "Reference": "9626510:290209:03909",
+    "Sequence": 3909,
+    "Terminal": 4,
+    "Total": 13.65
+}

@@ -1,0 +1,9 @@
+duckdb_profile:
+  target: dev
+  outputs:
+    dev:
+      path: receipts.duckdb
+      type: duckdb
+      extensions:
+        - httpfs
+      threads: 5

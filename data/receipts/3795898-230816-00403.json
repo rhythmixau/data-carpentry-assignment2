@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Jonathon",
+    "Date": "2023/08/16",
+    "GST": 7.23,
+    "Payments": [
+        {
+            "Amount": 23.87,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 55.69,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 19.2,
+            "Name": "Cape grey",
+            "Price": 46.8,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.15,
+            "Per_Quantity": 2,
+            "Product": "Cape grey"
+        }
+    ],
+    "Reference": "3795898:230816:00403",
+    "Sequence": 403,
+    "Terminal": 1,
+    "Total": 79.56
+}

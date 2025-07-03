@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Eric",
+    "Customer": {
+        "Name": "Jacob",
+        "Points_Earnt": 5110
+    },
+    "Date": "2027/10/04",
+    "GST": 18.21,
+    "Payments": [
+        {
+            "Amount": 51.1,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 149.2,
+            "Method": "Loyalty Points"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 32.2,
+            "Name": "Clippers kit",
+            "Price": 61.5,
+            "Quantity": 3
+        },
+        {
+            "Cost": 6.8,
+            "Name": "Pomade",
+            "Price": 15.8,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:271004:02072",
+    "Sequence": 2072,
+    "Terminal": 1,
+    "Total": 200.3
+}

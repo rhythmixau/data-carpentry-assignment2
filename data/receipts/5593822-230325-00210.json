@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Theresa",
+    "Customer": {
+        "Name": "Samantha",
+        "Points_Earnt": 4200
+    },
+    "Date": "2023/03/25",
+    "GST": 3.82,
+    "Payments": [
+        {
+            "Amount": 42.0,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 10.8,
+            "Name": "Sync diving",
+            "Price": 21.0,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:230325:00210",
+    "Sequence": 210,
+    "Terminal": 3,
+    "Total": 42.0
+}

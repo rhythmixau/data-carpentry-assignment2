@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Ronald",
+    "Customer": {
+        "Name": "Andrew",
+        "Points_Earnt": 265
+    },
+    "Date": "2026/02/25",
+    "GST": 1.99,
+    "Payments": [
+        {
+            "Amount": 19.25,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 2.65,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.4,
+            "Name": "Cheese bread",
+            "Price": 7.3,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:260225:01917",
+    "Sequence": 1917,
+    "Terminal": 3,
+    "Total": 21.9
+}

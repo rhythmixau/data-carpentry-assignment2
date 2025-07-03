@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Michael",
+    "Customer": {
+        "Name": "Ashlee",
+        "Points_Earnt": 484
+    },
+    "Date": "2028/04/03",
+    "GST": 5.32,
+    "Payments": [
+        {
+            "Amount": 53.65,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 4.85,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 25.2,
+            "Name": "Cape grey",
+            "Price": 58.5,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:280403:02294",
+    "Sequence": 2294,
+    "Terminal": 2,
+    "Total": 58.5
+}

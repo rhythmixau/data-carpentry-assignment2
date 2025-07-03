@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Eric",
+    "Customer": {
+        "Name": "Angela",
+        "Points_Earnt": 4280
+    },
+    "Date": "2023/10/13",
+    "GST": 3.89,
+    "Payments": [
+        {
+            "Amount": 19.55,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 23.25,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 8.9,
+            "Name": "Classic brush",
+            "Price": 14.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 5.3,
+            "Name": "Hairwax",
+            "Price": 13.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:231013:00465",
+    "Sequence": 465,
+    "Terminal": 5,
+    "Total": 42.8
+}

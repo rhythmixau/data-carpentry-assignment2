@@ -1,0 +1,44 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Todd",
+    "Customer": {
+        "Name": "Ashley",
+        "Points_Earnt": 10554
+    },
+    "Date": "2028/04/24",
+    "GST": 9.59,
+    "Payments": [
+        {
+            "Amount": 105.54,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 12.6,
+            "Name": "Razorblade",
+            "Price": 19.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 19.2,
+            "Name": "Cape white",
+            "Price": 58.5,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.2,
+            "Per_Quantity": 3,
+            "Product": "Razorblade"
+        }
+    ],
+    "Reference": "3795898:280424:02321",
+    "Sequence": 2321,
+    "Terminal": 1,
+    "Total": 105.54
+}

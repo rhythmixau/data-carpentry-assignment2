@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Hector",
+    "Date": "2029/03/03",
+    "GST": 1.51,
+    "Payments": [
+        {
+            "Amount": 12.15,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 4.45,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.9,
+            "Name": "English muffin",
+            "Price": 8.3,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290303:03811",
+    "Sequence": 3811,
+    "Terminal": 1,
+    "Total": 16.6
+}

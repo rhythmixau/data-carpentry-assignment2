@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Carlos",
+    "Date": "2029/03/07",
+    "GST": 6.04,
+    "Payments": [
+        {
+            "Amount": 6.64,
+            "Method": "Credit Card"
+        },
+        {
+            "Amount": 59.76,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.5,
+            "Name": "Hair tonic",
+            "Price": 16.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 5.5,
+            "Name": "Hair tonic",
+            "Price": 16.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:290307:02724",
+    "Sequence": 2724,
+    "Terminal": 4,
+    "Total": 66.4
+}

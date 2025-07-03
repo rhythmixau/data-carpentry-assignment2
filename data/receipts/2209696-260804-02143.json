@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Date": "2026/08/04",
+    "GST": 0.45,
+    "Payments": [
+        {
+            "Amount": 0.49,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 4.41,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.1,
+            "Name": "Macarons",
+            "Price": 4.9,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:260804:02143",
+    "Sequence": 2143,
+    "Terminal": 1,
+    "Total": 4.9
+}

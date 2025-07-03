@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Customer": {
+        "Name": "Scott",
+        "Points_Earnt": 1995
+    },
+    "Date": "2026/06/09",
+    "GST": 2.15,
+    "Payments": [
+        {
+            "Amount": 3.75,
+            "Method": "Loyalty Points"
+        },
+        {
+            "Amount": 19.95,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.0,
+            "Name": "Ham toastie",
+            "Price": 7.9,
+            "Quantity": 2
+        },
+        {
+            "Cost": 5.0,
+            "Name": "Ham toastie",
+            "Price": 7.9,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:260609:02053",
+    "Sequence": 2053,
+    "Terminal": 1,
+    "Total": 23.7
+}

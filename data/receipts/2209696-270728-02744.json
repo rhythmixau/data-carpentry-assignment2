@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Customer": {
+        "Name": "Gregory",
+        "Points_Earnt": 4376
+    },
+    "Date": "2027/07/28",
+    "GST": 3.98,
+    "Payments": [
+        {
+            "Amount": 13.13,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 30.63,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.0,
+            "Name": "Long Black",
+            "Price": 4.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 6.7,
+            "Name": "Ham bagel",
+            "Price": 12.8,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [
+        {
+            "Discount": 0.1,
+            "Per_Quantity": 3,
+            "Product": "Ham bagel"
+        }
+    ],
+    "Reference": "2209696:270728:02744",
+    "Sequence": 2744,
+    "Terminal": 2,
+    "Total": 43.76
+}

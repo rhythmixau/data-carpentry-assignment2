@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Date": "2027/02/18",
+    "GST": 0.42,
+    "Payments": [
+        {
+            "Amount": 4.35,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 0.25,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.0,
+            "Name": "Mocha",
+            "Price": 4.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:270218:02472",
+    "Sequence": 2472,
+    "Terminal": 5,
+    "Total": 4.6
+}

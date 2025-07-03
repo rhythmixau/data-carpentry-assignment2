@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Natasha",
+    "Customer": {
+        "Name": "Anna",
+        "Points_Earnt": 14240
+    },
+    "Date": "2028/09/14",
+    "GST": 12.95,
+    "Payments": [
+        {
+            "Amount": 56.96,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 85.44,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 10.8,
+            "Name": "Spray bottle",
+            "Price": 25.4,
+            "Quantity": 1
+        },
+        {
+            "Cost": 19.2,
+            "Name": "Cape white",
+            "Price": 58.5,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:280914:02500",
+    "Sequence": 2500,
+    "Terminal": 1,
+    "Total": 142.4
+}

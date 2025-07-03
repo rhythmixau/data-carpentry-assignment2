@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Jennifer",
+    "Date": "2027/02/24",
+    "GST": 6.84,
+    "Payments": [
+        {
+            "Amount": 67.68,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 7.52,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.9,
+            "Name": "Garlic bread",
+            "Price": 7.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 12.8,
+            "Name": "Three meat",
+            "Price": 20.0,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:270224:02543",
+    "Sequence": 2543,
+    "Terminal": 1,
+    "Total": 75.2
+}

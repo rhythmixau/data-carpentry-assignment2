@@ -1,0 +1,28 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Matthew",
+    "Date": "2026/04/15",
+    "GST": 0.66,
+    "Payments": [
+        {
+            "Amount": 7.3,
+            "Method": "Cash"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.2,
+            "Name": "English muffin",
+            "Price": 7.3,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:260415:01970",
+    "Sequence": 1970,
+    "Terminal": 4,
+    "Total": 7.3
+}

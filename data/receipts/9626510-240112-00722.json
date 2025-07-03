@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Tara",
+    "Date": "2024/01/12",
+    "GST": 3.6,
+    "Payments": [
+        {
+            "Amount": 31.85,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 7.75,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 6.8,
+            "Name": "Hawaiian",
+            "Price": 13.2,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:240112:00722",
+    "Sequence": 722,
+    "Terminal": 4,
+    "Total": 39.6
+}

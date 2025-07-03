@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Ronald",
+    "Date": "2022/08/20",
+    "GST": 1.09,
+    "Payments": [
+        {
+            "Amount": 4.8,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 7.2,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.0,
+            "Name": "Chips",
+            "Price": 6.0,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:220820:00068",
+    "Sequence": 68,
+    "Terminal": 2,
+    "Total": 12.0
+}

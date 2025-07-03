@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Kathryn",
+    "Customer": {
+        "Name": "Carol",
+        "Points_Earnt": 4120
+    },
+    "Date": "2023/12/15",
+    "GST": 3.75,
+    "Payments": [
+        {
+            "Amount": 41.2,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 8.3,
+            "Name": "Spray bottle",
+            "Price": 20.6,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:231215:00530",
+    "Sequence": 530,
+    "Terminal": 5,
+    "Total": 41.2
+}

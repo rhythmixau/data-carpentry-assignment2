@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Jennifer",
+    "Customer": {
+        "Name": "Scott",
+        "Points_Earnt": 3440
+    },
+    "Date": "2028/04/14",
+    "GST": 3.13,
+    "Payments": [
+        {
+            "Amount": 13.76,
+            "Method": "Credit Card"
+        },
+        {
+            "Amount": 20.64,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.5,
+            "Name": "Spicy chicken",
+            "Price": 17.2,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:280414:03321",
+    "Sequence": 3321,
+    "Terminal": 4,
+    "Total": 34.4
+}

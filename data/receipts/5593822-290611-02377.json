@@ -1,0 +1,48 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Jeffrey",
+    "Customer": {
+        "Name": "William",
+        "Points_Earnt": 5560
+    },
+    "Date": "2029/06/11",
+    "GST": 5.05,
+    "Payments": [
+        {
+            "Amount": 22.24,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 33.36,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 15.0,
+            "Name": "Sync diving",
+            "Price": 27.2,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.4,
+            "Name": "Hot chips",
+            "Price": 7.1,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.4,
+            "Name": "Hot chips",
+            "Price": 7.1,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:290611:02377",
+    "Sequence": 2377,
+    "Terminal": 1,
+    "Total": 55.6
+}

@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Donna",
+    "Customer": {
+        "Name": "Scott",
+        "Points_Earnt": 2579
+    },
+    "Date": "2026/06/01",
+    "GST": 2.35,
+    "Payments": [
+        {
+            "Amount": 18.06,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 7.74,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.9,
+            "Name": "Water bottle",
+            "Price": 8.6,
+            "Quantity": 2
+        },
+        {
+            "Cost": 2.9,
+            "Name": "Water bottle",
+            "Price": 8.6,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:260601:01259",
+    "Sequence": 1259,
+    "Terminal": 5,
+    "Total": 25.8
+}

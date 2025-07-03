@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Jonathon",
+    "Date": "2025/04/10",
+    "GST": 8.15,
+    "Payments": [
+        {
+            "Amount": 62.2,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 27.4,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 14.2,
+            "Name": "Broom",
+            "Price": 44.8,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:250410:01033",
+    "Sequence": 1033,
+    "Terminal": 1,
+    "Total": 89.6
+}

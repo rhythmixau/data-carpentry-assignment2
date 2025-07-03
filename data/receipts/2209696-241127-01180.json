@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Date": "2024/11/27",
+    "GST": 0.65,
+    "Payments": [
+        {
+            "Amount": 2.88,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 4.32,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 4.4,
+            "Name": "Ham toastie",
+            "Price": 7.2,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:241127:01180",
+    "Sequence": 1180,
+    "Terminal": 5,
+    "Total": 7.2
+}

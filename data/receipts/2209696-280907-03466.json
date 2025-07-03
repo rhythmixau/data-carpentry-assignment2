@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Date": "2028/09/07",
+    "GST": 3.32,
+    "Payments": [
+        {
+            "Amount": 17.8,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 18.7,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.6,
+            "Name": "Ham toastie",
+            "Price": 8.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 3.3,
+            "Name": "Cupcake",
+            "Price": 9.3,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:280907:03466",
+    "Sequence": 3466,
+    "Terminal": 5,
+    "Total": 36.5
+}

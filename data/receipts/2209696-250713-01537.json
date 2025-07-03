@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Leslie",
+    "Customer": {
+        "Name": "Marvin",
+        "Points_Earnt": 1620
+    },
+    "Date": "2025/07/13",
+    "GST": 1.47,
+    "Payments": [
+        {
+            "Amount": 6.48,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 9.72,
+            "Method": "Credit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 2.7,
+            "Name": "Cupcake",
+            "Price": 8.1,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:250713:01537",
+    "Sequence": 1537,
+    "Terminal": 3,
+    "Total": 16.2
+}

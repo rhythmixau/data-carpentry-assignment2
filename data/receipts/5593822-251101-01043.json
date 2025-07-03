@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "559 38 22",
+        "Name": "Penguin Swim School"
+    },
+    "Cashier": "Donna",
+    "Date": "2025/11/01",
+    "GST": 9.33,
+    "Payments": [
+        {
+            "Amount": 10.26,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 92.34,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 12.0,
+            "Name": "Swim goggles",
+            "Price": 22.8,
+            "Quantity": 2
+        },
+        {
+            "Cost": 23.4,
+            "Name": "Rescue training",
+            "Price": 57.0,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "5593822:251101:01043",
+    "Sequence": 1043,
+    "Terminal": 2,
+    "Total": 102.6
+}

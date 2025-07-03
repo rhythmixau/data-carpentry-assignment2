@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Date": "2024/03/12",
+    "GST": 7.2,
+    "Payments": [
+        {
+            "Amount": 5.05,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 74.15,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 12.0,
+            "Name": "Eggs benny",
+            "Price": 19.8,
+            "Quantity": 1
+        },
+        {
+            "Cost": 12.0,
+            "Name": "Eggs benny",
+            "Price": 19.8,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:240312:00815",
+    "Sequence": 815,
+    "Terminal": 4,
+    "Total": 79.2
+}

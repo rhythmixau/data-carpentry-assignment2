@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Hector",
+    "Customer": {
+        "Name": "Daniel",
+        "Points_Earnt": 1460
+    },
+    "Date": "2029/05/01",
+    "GST": 1.33,
+    "Payments": [
+        {
+            "Amount": 2.92,
+            "Method": "Debit Card"
+        },
+        {
+            "Amount": 11.68,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 3.9,
+            "Name": "English muffin",
+            "Price": 8.3,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.3,
+            "Name": "Flat white",
+            "Price": 6.3,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:290501:03918",
+    "Sequence": 3918,
+    "Terminal": 2,
+    "Total": 14.6
+}

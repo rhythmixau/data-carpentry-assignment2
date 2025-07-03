@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Scott",
+    "Date": "2028/03/24",
+    "GST": 4.62,
+    "Payments": [
+        {
+            "Amount": 20.32,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 30.48,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 10.8,
+            "Name": "Spray bottle",
+            "Price": 25.4,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:280324:02282",
+    "Sequence": 2282,
+    "Terminal": 1,
+    "Total": 50.8
+}

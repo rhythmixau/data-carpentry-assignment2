@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Diane",
+    "Customer": {
+        "Name": "Marvin",
+        "Points_Earnt": 1640
+    },
+    "Date": "2027/11/26",
+    "GST": 1.49,
+    "Payments": [
+        {
+            "Amount": 1.6,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 14.8,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.3,
+            "Name": "Ham toastie",
+            "Price": 8.2,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:271126:02954",
+    "Sequence": 2954,
+    "Terminal": 1,
+    "Total": 16.4
+}

@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Jonathon",
+    "Date": "2024/05/13",
+    "GST": 4.2,
+    "Payments": [
+        {
+            "Amount": 27.72,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 18.48,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 5.4,
+            "Name": "Face wipes",
+            "Price": 10.6,
+            "Quantity": 3
+        },
+        {
+            "Cost": 4.5,
+            "Name": "Soap 500mL",
+            "Price": 7.2,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:240513:00679",
+    "Sequence": 679,
+    "Terminal": 2,
+    "Total": 46.2
+}

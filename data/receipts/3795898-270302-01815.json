@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Eric",
+    "Customer": {
+        "Name": "Darren",
+        "Points_Earnt": 5600
+    },
+    "Date": "2027/03/02",
+    "GST": 5.09,
+    "Payments": [
+        {
+            "Amount": 53.95,
+            "Method": "Cash"
+        },
+        {
+            "Amount": 2.05,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 18.0,
+            "Name": "Cape white",
+            "Price": 56.0,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:270302:01815",
+    "Sequence": 1815,
+    "Terminal": 3,
+    "Total": 56.0
+}

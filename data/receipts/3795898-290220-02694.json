@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "379 58 98",
+        "Name": "Ed's Barber Supplies"
+    },
+    "Cashier": "Barbara",
+    "Customer": {
+        "Name": "Anna",
+        "Points_Earnt": 0
+    },
+    "Date": "2029/02/20",
+    "GST": 5.59,
+    "Payments": [
+        {
+            "Amount": 61.5,
+            "Method": "Loyalty Points"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 20.6,
+            "Name": "Cape white",
+            "Price": 61.5,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "3795898:290220:02694",
+    "Sequence": 2694,
+    "Terminal": 4,
+    "Total": 61.5
+}

@@ -1,0 +1,32 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Levi",
+    "Date": "2029/06/14",
+    "GST": 4.53,
+    "Payments": [
+        {
+            "Amount": 4.98,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 44.82,
+            "Method": "Gift Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 9.1,
+            "Name": "Hawaiian",
+            "Price": 16.6,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:290614:04157",
+    "Sequence": 4157,
+    "Terminal": 2,
+    "Total": 49.8
+}

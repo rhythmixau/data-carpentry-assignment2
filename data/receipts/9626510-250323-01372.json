@@ -1,0 +1,36 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Ronald",
+    "Customer": {
+        "Name": "Jeremy",
+        "Points_Earnt": 1380
+    },
+    "Date": "2025/03/23",
+    "GST": 1.25,
+    "Payments": [
+        {
+            "Amount": 1.38,
+            "Method": "Gift Card"
+        },
+        {
+            "Amount": 12.42,
+            "Method": "Debit Card"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 7.1,
+            "Name": "Hawaiian",
+            "Price": 13.8,
+            "Quantity": 1
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:250323:01372",
+    "Sequence": 1372,
+    "Terminal": 4,
+    "Total": 13.8
+}

@@ -1,0 +1,42 @@
+{
+    "Business": {
+        "ABN": "962 65 10",
+        "Name": "Please Bring Pizza Pronto"
+    },
+    "Cashier": "Christian",
+    "Customer": {
+        "Name": "Andrew",
+        "Points_Earnt": 6400
+    },
+    "Date": "2022/07/30",
+    "GST": 5.82,
+    "Payments": [
+        {
+            "Amount": 19.2,
+            "Method": "BPAY"
+        },
+        {
+            "Amount": 44.8,
+            "Method": "EFTPOS"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 9.6,
+            "Name": "Three meat",
+            "Price": 16.0,
+            "Quantity": 1
+        },
+        {
+            "Cost": 9.6,
+            "Name": "Three meat",
+            "Price": 16.0,
+            "Quantity": 3
+        }
+    ],
+    "Promotions": [],
+    "Reference": "9626510:220730:00039",
+    "Sequence": 39,
+    "Terminal": 2,
+    "Total": 64.0
+}

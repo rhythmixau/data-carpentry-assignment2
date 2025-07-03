@@ -1,0 +1,38 @@
+{
+    "Business": {
+        "ABN": "220 96 96",
+        "Name": "Wake Up with Coffee"
+    },
+    "Cashier": "Scott",
+    "Date": "2025/05/28",
+    "GST": 1.78,
+    "Payments": [
+        {
+            "Amount": 15.68,
+            "Method": "EFTPOS"
+        },
+        {
+            "Amount": 3.92,
+            "Method": "BPAY"
+        }
+    ],
+    "Products": [
+        {
+            "Cost": 1.5,
+            "Name": "Glazed donut",
+            "Price": 4.6,
+            "Quantity": 1
+        },
+        {
+            "Cost": 4.6,
+            "Name": "Ham toastie",
+            "Price": 7.5,
+            "Quantity": 2
+        }
+    ],
+    "Promotions": [],
+    "Reference": "2209696:250528:01465",
+    "Sequence": 1465,
+    "Terminal": 3,
+    "Total": 19.6
+}
