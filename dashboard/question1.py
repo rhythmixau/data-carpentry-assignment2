@@ -7,8 +7,8 @@ DUCKDB_FILE = "dbt/airbnb/receipts.duckdb"
 
 st.markdown("### Questions")
 st.markdown("1. Are there periods of the year where some businesses are more profitable?")
-st.markdown("2. How much has inflation impacted the profit margin of each business?")
-st.markdown("3. Which customers were most loyal for each business?")
+st.markdown("2. Which customers were most loyal for each business?")
+st.markdown("3. What is the employee turnover rate of each business?")
 
 st.markdown("### Raw Data")
 with duckdb.connect(DUCKDB_FILE) as conn:

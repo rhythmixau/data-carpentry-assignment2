@@ -1,33 +1,39 @@
 # Project Overview
+## Data Carpentry - Assignment 2
+#### by Jack Toke
 
-Apache Airflow is one of the most widely-used engines for orchestrating Extract, Transform, and Load (ETL) jobs, especially for transformations using [dbt](https://www.getdbt.com). dbt is a framework to create reliable transformations to produce high-quality data for businesses, usually in analytical databases like Snowflake and BigQuery.
+# Introduction
 
-This project showcases using dbt and Airflow together with [Cosmos](https://github.com/astronomer/astronomer-cosmos), allowing users to deploy dbt in production with Airflow best-practices.
+This project is a data pipeline for transforming and loading data as a part of Data Carpentry (IFQ718).
+The object of the project is to find answers to three specific questions.
+1. Are there periods of the year, where some businesses are more profitable?
+2. Which customers were most loyal for each business?
+3. What is the employee turnover rate of each business?
 
-Astronomer is the best place to host Apache Airflow -- try it out with a free trial at [astronomer.io](https://www.astronomer.io/).
+# Pipeline Architecture
+![Tech stack](./images/tools_banner.png)
+The project integrates **Apache Airflow**, **dbt**, **Streamlit** and **DuckDB** to run on **Docker**.
+It is meant to be portable and doesn't need any other services.
 
-# Learning Paths
+# How to get up and running?
+1. First you will need Docker installed on your system.
+2. Clone the repo
+3. Once you have cd into the directory where you have persisted the repository, setup the **Python** virtual environment.
+`python -m .venv 3.12`.  Then you will have activate your **Python** virtual environment by running `source .venv/bin/activate`.
+4. You will also need to install the required dependencies by running `pip install -r requirements.txt`.
+5. Finally, you can run `docker compose up`.  You can visit `localhost:8080` to access the **Airflow** dashboard, 
+where you can run all your dags that transform and load the **JSON** files provided.  The files are located in `./data/receipts/*`.
+6. To see the visual you can visit `localhost:8505`.
 
-To learn more about data engineering with Apache Airflow, dbt, and Cosmos, make a few changes to this project! For example, try one of the following:
+# Airflow
+Once, your docker is up and running, visit `localhost:8080` on your browser and you will be greeted by the following login screen.
+The default username and password is `airflow` for both the username and password.
 
-1. Use Postgres, MySQL, Snowflake, or another production-ready database instead of DuckDB
-2. Change the Cosmos DbtDag to Cosmos DbtTaskGroups! For extra help, check out the [Cosmos examples of DbtTaskGroups](https://github.com/astronomer/astronomer-cosmos/blob/main/dev/dags/basic_cosmos_task_group.py)
+![Login Page](./images/airflow_login.jpg)
 
-# Project Contents
-
-Your Astro project contains the following files and folders:
-
-- dags: This folder contains the Python files for your Airflow DAGs. This project includes one example DAG:
-  - `dbt_cosmos_dag.py`: This DAG sets up [Cosmos](https://github.com/astronomer/astronomer-cosmos), allowing files in the /dbt directory to transform into Airflow tasks and taskgroups.
-- dbt/jaffle_shop: This folder contains the dbt project [jaffle_shop](https://github.com/dbt-labs/jaffle_shop_duckdb), a fictional ecommerce store. Use this as a starting point to learn how dbt and Airflow work together!
-- Dockerfile: This file contains a versioned Astro Runtime Docker image that provides a differentiated Airflow experience. If you want to execute other commands or overrides at runtime, specify them here.
-- include: This folder contains any additional files that you want to include as part of your project. In this example, constants.py includes configuration for your Cosmos project.
-- packages.txt: Install OS-level packages needed for your project by adding them to this file. It is empty by default.
-- requirements.txt: Install Python packages needed for your project by adding them to this file. In this project, we pin the Cosmos version.
-- plugins: Add custom or community plugins for your project to this file. It is empty by default.
-- airflow_settings.yaml: Use this local-only file to specify Airflow Connections, Variables, and Pools instead of entering them in the Airflow UI as you develop DAGs in this project.
-
-# Deploying to Production
+Once you are logged in your will see the following screen.
+![Dashboard](./images/airflow_dashboard1.jpg)
+Click on the **Dags** icon on the left of the screen and you can 
 
 ### ❗Warning❗
 
