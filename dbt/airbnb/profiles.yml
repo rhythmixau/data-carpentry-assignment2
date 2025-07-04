@@ -6,4 +6,10 @@ duckdb_profile:
       type: duckdb
       extensions:
         - httpfs
-      threads: 5
+      threads: 1
+    prod:
+      path: /opt/airflow/dbt/airbnb/receipts.duckdb
+      type: duckdb
+      extensions:
+        - httpfs
+      threads: 1

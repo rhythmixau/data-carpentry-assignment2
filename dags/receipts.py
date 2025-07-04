@@ -38,8 +38,8 @@ def stg_receipts(receipts, context: Context):
     CREATE STAGING TABLE stg_receipts
     """
     receipts_data = context['ti'].xcom_pull(
-        dag_id=receipts.name,
-        task_ids=receipts.name,
+        dag_id=receipts.business_name,
+        task_ids=receipts.business_name,
         include_prior_dates=True,
     )
     receipts_df = pd.DataFrame(receipts_data)
