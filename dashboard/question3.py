@@ -1,11 +1,11 @@
-import streamlit as st
+import duckdb
 import pandas as pd
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-import duckdb
+import streamlit as st
+
 from constants import DUCKDB_FILE
 
-st.markdown("Q3 - How much has inflation impacted the profit margin of each business?")
+st.markdown("Q3 - What is the employee turnover rate of each business?")
 
 periods = {
     1: "July 2022 - June 2023",
@@ -104,11 +104,25 @@ for business_name in businesses:
     st.dataframe(ed_df)
     final_stat.loc[len(final_stat)] = [business_name, ed_df["annual_turnover_rate"].mean(), ed_df["annual_turnover_rate"].median()]
 
+final_stat["avg_turnover_rate"] = final_stat["avg_turnover_rate"].round(2)
 st.markdown("### Employee Turnover Rate Analysis")
 st.dataframe(final_stat)
+colours = ["#fb5607", "#ff006e",]
+data = [go.Bar(name="Avg. Turnover Rate", x=final_stat["business_name"], y=final_stat["avg_turnover_rate"],
+               text=final_stat["avg_turnover_rate"], marker=dict(color=colours[0])),
+        go.Bar(name="Med. Turnover Rate", x=final_stat["business_name"], y=final_stat["median_turnover_rate"],
+               text=final_stat["median_turnover_rate"], marker=dict(color=colours[1])),]
+fig = go.Figure(data=data)
+fig.update_layout(barmode="group")
+st.plotly_chart(fig, use_container_width=True)
 st.write("Employee turnover rate is a crucial metric for businesses to understand the stability of their workforce.")
-st.write("It indicates the percentage of employees who leave the company within a specific period.")
-st.write("Let's analyze the employee turnover rate for Ed's Barber Supplies.")
+st.write("""
+It is rather depressing to look at the table above, but we have to take into consideration that these are very 
+small businesses with 1-5 employees at any given time. Losing just one or two employees a year will cause the 
+employee turnover rate to spike. In general, these businesses may lose 0-2 employees a year. However, for some 
+reason, during the period from July 2028 to July 2029, these businesses churned through employees, which caused 
+the employee turnover rate to increase suddenly and skew the result.
+""")
 
 # Example Calculation
 # Let's say you want to calculate the annual turnover rate for your company.

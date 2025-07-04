@@ -1,6 +1,7 @@
 import streamlit as st
 import duckdb
 from constants import DUCKDB_FILE
+from typing import Literal
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
@@ -10,10 +11,10 @@ import math
 
 st.markdown("## Q2 - Which customers were most loyal for each business?")
 st.markdown("Let's start by defining what do we mean by loyal customer.  Is loyal customer someone who bring in the "
-            "most business?  Or is it someone who visit the business the most")
+            "most business?  Or is it someone who visit the business the most.")
 
 
-def show_bar_graph(receipts_df, header="Some Title"):
+def show_bar_graph(receipts_df, header="Some Title", value_type: Literal["amount_spent", "num_purchases"]="amount_spent",):
     company_titles = [
         "Ed's Barber Supplies",
         'Penguin Swim School',
@@ -27,21 +28,21 @@ def show_bar_graph(receipts_df, header="Some Title"):
     business_name = company_titles[0]
     df = receipts_df[receipts_df['business_name'] == business_name]
     fig.add_trace(
-        go.Bar(x=df.customer_name, y=df.amount_spent, text=df.amount_spent, textposition='outside', texttemplate='%{text:.2s}',
+        go.Bar(x=df.customer_name, y=df.amount_spent if value_type == "value_type" else df.num_purchases, text=df.amount_spent if value_type == "value_type" else df.num_purchases, textposition='outside', texttemplate='%{text:.2s}',
                name=business_name, marker=dict(cornerradius=30, color=colours[0])), row=1, col=1
     )
 
     business_name = company_titles[1]
     df = receipts_df[receipts_df['business_name'] == business_name]
     fig.add_trace(
-        go.Bar(x=df.customer_name, y=df.amount_spent, text=df.amount_spent, textposition='outside', texttemplate='%{text:.2s}',
+        go.Bar(x=df.customer_name, y=df.amount_spent if value_type == "value_type" else df.num_purchases, text=df.amount_spent if value_type == "value_type" else df.num_purchases, textposition='outside', texttemplate='%{text:.2s}',
                name=business_name, marker=dict(cornerradius=30, color=colours[1])), row=1, col=2
     )
 
     business_name = company_titles[2]
     df = receipts_df[receipts_df['business_name'] == business_name]
     fig.add_trace(
-        go.Bar(x=df.customer_name, y=df.amount_spent, text=df.amount_spent, textposition='outside', texttemplate='%{text:.2s}',
+        go.Bar(x=df.customer_name, y=df.amount_spent if value_type == "value_type" else df.num_purchases, text=df.amount_spent if value_type == "value_type" else df.num_purchases, textposition='outside', texttemplate='%{text:.2s}',
                name=business_name, marker=dict(cornerradius=30, color=colours[2])), row=2, col=1
     )
 
@@ -49,8 +50,8 @@ def show_bar_graph(receipts_df, header="Some Title"):
     df = receipts_df[receipts_df['business_name'] == business_name]
     fig.add_trace(
         go.Bar(x=df.customer_name,
-               y=df.amount_spent,
-               text=df.amount_spent, textposition='outside', texttemplate='%{text:.2s}',
+               y=df.amount_spent if value_type == "value_type" else df.num_purchases,
+               text=df.amount_spent if value_type == "value_type" else df.num_purchases, textposition='outside', texttemplate='%{text:.2s}',
                name=business_name,
                marker=dict(cornerradius=30, color=colours[3]),
                ),
@@ -73,6 +74,6 @@ st.markdown("#### Top 10 Customers by Number of Purchases")
 with duckdb.connect(DUCKDB_FILE) as conn:
     top_ten_by_num_purchases_df = conn.sql("SELECT * FROM receipts.main.top_ten_customers_by_num_purchases").df()
 
-st.dataframe(top_ten_by_num_purchases_df)
-show_bar_graph(top_ten_by_num_purchases_df, header="Top 10 Customers by Number of Purchases")
+st.dataframe(top_ten_by_num_purchases_df,)
+show_bar_graph(top_ten_by_num_purchases_df, header="Top 10 Customers by Number of Purchases", value_type="num_purchases")
 
