@@ -124,26 +124,3 @@ reason, during the period from July 2028 to July 2029, these businesses churned 
 the employee turnover rate to increase suddenly and skew the result.
 """)
 
-# Example Calculation
-# Let's say you want to calculate the annual turnover rate for your company.
-#
-# You had 100 employees on January 1st.
-#
-# You had 120 employees on December 31st.
-#
-# During the year, 15 employees left the company.
-#
-# First, calculate the average number of employees:
-#
-# (100 + 120) / 2 = 110 average employees
-#
-# Now, use the turnover formula:
-#
-# (15 / 110) x 100 = 13.6%
-#
-# Your annual employee turnover rate is 13.6%.
-#
-
-
-
-
