@@ -3,8 +3,8 @@ FROM python:3.12-slim
 WORKDIR /app
 
 # Create a python environment
-RUN python -m venv .venv
-RUN source .venv/bin/activate
+#RUN python -m venv .venv
+#RUN source .venv/bin/activate
 
 # Copy requirements first to leverage Docker cache4
 COPY dashboard/requirements.txt .
