@@ -2,9 +2,12 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-# Copy requirements first to leverage Docker cache
-COPY dashboard/requirements.txt .
+# Create a python environment
+RUN python -m venv .venv
+RUN source .venv/bin/activate
 
+# Copy requirements first to leverage Docker cache4
+COPY dashboard/requirements.txt .
 # Install dependencies as root
 RUN pip install --no-cache-dir -r requirements.txt
 
