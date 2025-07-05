@@ -1,6 +1,15 @@
-astro
 .git
-.env
-airflow_settings.yaml
-logs/
-airflow/__airflow.cfg
+.gitignore
+.idea
+.venv
+.DS_Store
+README.md
+
+# Ignore the main Dockerfile and docker-compose.yaml
+Dockerfile
+docker-compose.yaml
+
+# Ignore the dags, logs, and plugins directories
+dags
+logs
+plugins

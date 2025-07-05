@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 
-DUCKDB_FILE = "dbt/airbnb/receipts.duckdb"
+DUCKDB_FILE = "/app/dbt/airbnb/receipts.duckdb"
 
 st.markdown("### Questions")
 st.markdown("1. Are there periods of the year where some businesses are more profitable?")
