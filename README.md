@@ -45,67 +45,12 @@ and analysis are at the bottom of each page.
 
 ![Streamlit Question 1](./images/streamlit_q1.jpg)
 
-# Question 1 - Are there periods of the year where some businesses are more profitable?
-![Question 1](./images/question1.jpg)
 
-## Answer:
-1. **Ed's Barber Supplies** is doing well year by year, and it is **performing especially well during the first five months of the year.
-![Ed's Barber Supplies](./images/q1_ed_barber_supplies.jpg)
-2. **Please Bring Pizza Pronto** is performing really well across the year, and it is growing and doubling its profit every two years. However, it does look like its performance at the end of each year is slightly weaker than the rest of the year.
-![Please Bring Pizza Pronto](./images/q1_please_bring_pizza.jpg)
-3. **Penguin Swim School** performs worse in the middle of the year, which happens to be winter in Australia.  The business growth is sporadic and its overall trajectory is flat, which is to say, the business is not very stable and the growth is rather weak.
-![Penguin Swim School](./images/q1_penguin_swim_school.jpg)
-4. Wake Up with Coffee's business performance is weak with minimum growth compared to Ed's Barber Supplies and Please Bring Pizza Pronto,however, but it doesn't fluctuate as much as Penguin Swim School.  The business goes up and down but the pattern is not very clear and probably requires further investigation. 
-![Wake Up With Coffee](./images/q1_wake_up_coffee.jpg)
+[Submission File](IFQ718%20Template-Assignment%202.ipynb)
 
-# Q2 - Which customers were most loyal for each business?
-Let's start by defining what **loyal customer** is.  A loyal customer could be someone who spends the most at a business.
-If you are small business or mum and dad's shop down the street, could be someone who visit your venue or use your service regularly.
-However, for this exercise, we are going to say, **loyal customers** are those that spend the most at your business or 
-make the most number of purchases.
-
-## Top 10 Customers by Amount Spent
-![Top 10 Customers by Amount Spent](./images/q2_top_10_customers_by_amount_spent.jpg)
-If this is our definition of loyal customer then the most loyal customers of each businesses are as follows:
-1. **Ed's Barber Supplies** 1.
-   1. Lisa - $12,964
-   2. Scott - $10,086
-   3. Anna - $8,936
-2. **Penguin Swim School**
-   1. Scott - $7,570
-   2. William - $7,320
-   3. Samantha - $5,283
-3. **Wake Up with Coffee**
-   1. Scott - $7,098
-   2. Ricardo - $4,609
-   3. Robert - $4,596
-4. **Please Bring Pizza Pronto**
-   1. Jonathan - $10,686
-   2. Mary - $10,425
-   3. Scott - $10,324
-
-## Top 10 Customers by Number of Purchases
-![Top 10 Customers by Amount Spent](./images/q2_top_10_num_purchases.jpg)
-
-1. **Ed's Barber Supplies**
-   1. Lisa - 105
-   2. Scott - 66
-   3. Anna - 56
-2. **Penguin Swim School**
-   1. Scott - 96
-   2. William - 95
-   3. Samantha - 57
-3. **Wake Up with Coffee**
-   1. Scott - 192
-   2. Ricardo - 120
-   3. Robert - 110
-4. **Please Bring Pizza Pronto**
-   1. Jonathan - 191
-   2. Mary - 189
-   3. Scott - 188
-
-# Q3 - What is the employee turnover rate of each business?
-I have determined that the employee turnover rate is calculated as follows:
-#### Turnover rate = (# employee left in a period/# avg. employee over a period) * 100%
+## Transformation and Loading
+In my experience performing heavy data transformation in dataframes doesn't give the best user's experience.
+I therefore have used **dbt** for all my transformation tasks. All the transformation files can be found in 
+`dbt/models/` folder.  Some models are in **SQL** models (with Jinja syntax) and **Python** models.
 
 

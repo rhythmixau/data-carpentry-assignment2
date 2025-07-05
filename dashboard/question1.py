@@ -60,6 +60,7 @@ with duckdb.connect(DUCKDB_FILE) as conn:
     business_sales_df = conn.sql("SELECT * FROM receipts.main.business_sales").df()
     sale_profits_df = conn.sql("SELECT * FROM receipts.main.sale_profits").df()
     business_sales_profits_df = conn.sql("SELECT * FROM receipts.main.business_sales_profits").df()
+
 st.dataframe(business_sales_df)
 st.markdown("### 2. Sale Profits")
 st.dataframe(sale_profits_df)
