@@ -15,4 +15,4 @@ COPY ./dashboard ./dashboard
 
 COPY ./dbt/airbnb/receipts.duckdb dbt/airbnb/receipts.duckdb
 
-RUN pip install -r dashboaIrd/requirements.txt
+RUN pip install -r dashboard/requirements.txt

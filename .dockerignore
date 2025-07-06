@@ -1,15 +1,14 @@
 .git
 .gitignore
 .idea
-.venv
+
 .DS_Store
 README.md
 
-# Ignore the main Dockerfile and docker-compose.yaml
+# Ignore the main Dockerfile and docker-compose_prod.yaml
 Dockerfile
-docker-compose.yaml
+docker-compose_prod.yaml
 
 # Ignore the dags, logs, and plugins directories
-dags
 logs
 plugins

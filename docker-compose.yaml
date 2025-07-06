@@ -80,7 +80,7 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/data:/opt/airflow/data
     - ${AIRFLOW_PROJ_DIR:-.}/dbt:/opt/airflow/dbt
     - ${AIRFLOW_PROJ_DIR:-.}/config/airflow.cfg:/opt/airflow/config/airflow.cfg
-#    - ${AIRFLOW_PROJ_DIR:-.}/.venv:/opt/airflow/.venv
+    - ${AIRFLOW_PROJ_DIR:-.}/.venv:/opt/airflow/.venv
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -121,7 +121,7 @@ services:
 
   airflow-apiserver:
     <<: *airflow-common
-    command: api-server
+    command: airflow api-server
     ports:
       - "8080:8080"
     healthcheck:
@@ -138,7 +138,7 @@ services:
 
   airflow-scheduler:
     <<: *airflow-common
-    command: scheduler
+    command: airflow scheduler
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8974/health"]
       interval: 30s
@@ -153,7 +153,7 @@ services:
 
   airflow-dag-processor:
     <<: *airflow-common
-    command: dag-processor
+    command: airflow dag-processor
     healthcheck:
       test: ["CMD-SHELL", 'airflow jobs check --job-type DagProcessorJob --hostname "$${HOSTNAME}"']
       interval: 30s
@@ -193,7 +193,7 @@ services:
 
   airflow-triggerer:
     <<: *airflow-common
-    command: triggerer
+    command: airflow triggerer
     healthcheck:
       test: ["CMD-SHELL", 'airflow jobs check --job-type TriggererJob --hostname "$${HOSTNAME}"']
       interval: 30s

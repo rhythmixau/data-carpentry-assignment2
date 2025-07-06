@@ -1,9 +1,7 @@
 import duckdb
 import plotly.graph_objects as go
 import streamlit as st
-
-
-DUCKDB_FILE = "/app/dbt/airbnb/receipts.duckdb"
+from constants import DUCKDB_FILE
 
 st.markdown("### Questions")
 st.markdown("1. Are there periods of the year where some businesses are more profitable?")

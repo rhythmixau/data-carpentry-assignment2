@@ -1,1 +1,1 @@
-DUCKDB_FILE = "/app/dbt/airbnb/receipts.duckdb"
+DUCKDB_FILE = "dbt/airbnb/receipts.duckdb" # "/app/dbt/airbnb/receipts.duckdb"

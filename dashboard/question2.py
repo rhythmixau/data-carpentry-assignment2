@@ -1,13 +1,11 @@
-import streamlit as st
-import duckdb
-from constants import DUCKDB_FILE
 from typing import Literal
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-from plotly import data
-import math
 
+import duckdb
+import plotly.graph_objects as go
+import streamlit as st
+from plotly.subplots import make_subplots
+
+from constants import DUCKDB_FILE
 
 st.markdown("## Q2 - Which customers were most loyal for each business?")
 st.markdown("Let's start by defining what do we mean by loyal customer.  Is loyal customer someone who bring in the "
